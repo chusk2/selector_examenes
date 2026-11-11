@@ -1,608 +1,854 @@
 {
   "acido_base": {
-    "disoluciones": [
-      "riqueza",
-      "densidad",
-      "disolución comercial",
-      "industrial",
-      "molaridad"
-    ],
-    "neutralización": [
-      "neutraliza"
-    ],
-    "verdadero o falso": [
-      "verdadero",
-      "veracidad",
-      "falsedad",
-      "falso"
-    ],
-    "ácido base débil": [
-      "débil",
-      "grado",
-      "equilibrio",
-      "HA",
-      "disocia",
+    "keywords_tema": [
+      "ácido",
+      "base",
+      "pH",
+      "pOH",
+      "Ka =",
+      "Kb =",
+      "Ka del",
+      "Kb del",
+      "Ka de",
+      "Kb de",
+      "Kw",
+      "constante de acidez",
+      "constante de basicidad",
+      "básic",
+      "neutraliz",
+      "valoración",
+      "indicador",
+      "brønsted",
+      "bronsted",
+      "lowry",
+      "conjugad",
+      "hidrólisis",
+      "anfóter",
       "monoprótico",
-      "basicidad",
-      "acidez"
+      "diprótico"
     ],
-    "pares conjugados": [
-      "conjugad"
-    ],
-    "anfóteros": [
-      "anfote"
-    ],
-    "bronsted-lowry": [
-      "lowry"
-    ],
-    "pH resultante disolución": [
-      "neutro"
-    ],
-    "hidrólisis sales": [
-      "NaOH",
-      "NH4Cl",
-      "CH3COONa",
-      "NaCl",
-      "KCl",
-      "sales"
-    ],
-    "volumen agua a añadir": [
-      "volumen de agua"
-    ]
+    "tipos": {
+      "disoluciones": [
+        "riqueza",
+        "densidad",
+        "disolución comercial",
+        "industrial",
+        "molaridad"
+      ],
+      "neutralización": [
+        "neutraliza"
+      ],
+      "verdadero o falso": [
+        "verdad",
+        "verdadero",
+        "veracidad",
+        "falso",
+        "falsedad",
+        "certeza",
+        "ciertas"
+      ],
+      "ácido base débil": [
+        "débil",
+        "grado",
+        "equilibrio",
+        "HA",
+        "disocia",
+        "monoprótico",
+        "basicidad",
+        "acidez"
+      ],
+      "pares conjugados": [
+        "conjugad"
+      ],
+      "anfóteros": [
+        "anfote"
+      ],
+      "bronsted-lowry": [
+        "lowry"
+      ],
+      "pH resultante disolución": [
+        "neutro"
+      ],
+      "hidrólisis sales": [
+        "NaOH",
+        "NH4Cl",
+        "CH3COONa",
+        "NaCl",
+        "KCl",
+        "sales"
+      ],
+      "volumen agua a añadir": [
+        "volumen de agua"
+      ]
+    }
   },
   "cinetica": {
-    "cinética": [
-      "v = k",
-      "velocidad de reacción",
-      "catalizador",
-      "energía de activación",
-      "constante de velocidad",
+    "keywords_tema": [
+      "velocidad",
       "cinética",
+      "orden de reacción",
       "orden total",
-      "ecuación de velocidad"
-    ]
+      "orden parcial",
+      "constante de velocidad",
+      "energía de activación",
+      "ecuación de velocidad",
+      "v = k",
+      "arrhenius",
+      "mecanismo",
+      "etapa elemental",
+      "molecularidad",
+      "complejo activado",
+      "catalizador"
+    ],
+    "tipos": {
+      "cinética": [
+        "v = k",
+        "velocidad de reacción",
+        "catalizador",
+        "energía de activación",
+        "constante de velocidad",
+        "cinética",
+        "orden total",
+        "ecuación de velocidad"
+      ]
+    }
   },
   "termoquimica": {
-    "Verdadero o Falso": [
-      "verdader",
-      "fals"
-    ],
-    "Entalpías de enlace": [
-      "C-C",
-      "enlace"
-    ],
-    "Cálculo de entropía": [
-      "S°(J·mol⁻¹·K⁻¹)",
+    "keywords_tema": [
+      "entalpía",
+      "ΔH",
       "entropía",
-      "Calcule la variación de entropía"
+      "ΔS",
+      "energía libre",
+      "gibbs",
+      "ΔG",
+      "exotérmic",
+      "endotérmic",
+      "espontaneidad",
+      "termodinámic",
+      "energía interna",
+      "ley de hess",
+      "calor de",
+      "calor desprendido",
+      "calor absorbido",
+      "combustión"
     ],
-    "Entalpías de formación": [
-      "entalpías estándar de formación",
-      "ΔH°f"
-    ],
-    "Ley de Hess": [
-      "a partir de los siguientes datos",
-      "entalpías de combustión"
-    ],
-    "Relación entalpía y energía interna": [
-      "a volumen constante",
-      "a presión constante",
-      "R= 8,31 J·mol⁻¹·K⁻¹"
-    ],
-    "1er Principio de la Termodinámica": [
-      "trabajo",
-      "interna"
-    ],
-    "Energía libre de Gibbs teórico": [
-      "temperatura"
-    ],
-    "Energía libre de Gibbs - cálculo": [
-      "energía libre de Gibbs a"
-    ]
+    "tipos": {
+      "Entalpías de enlace": [
+        "C-C",
+        "enlace"
+      ],
+      "Cálculo de entropía": [
+        "S°(J·mol⁻¹·K⁻¹)",
+        "entropía",
+        "Calcule la variación de entropía"
+      ],
+      "Entalpías de formación": [
+        "entalpías estándar de formación",
+        "ΔH°f"
+      ],
+      "Ley de Hess": [
+        "a partir de los siguientes datos",
+        "entalpías de combustión"
+      ],
+      "Relación entalpía y energía interna": [
+        "a volumen constante",
+        "a presión constante",
+        "R= 8,31 J·mol⁻¹·K⁻¹"
+      ],
+      "1er Principio de la Termodinámica": [
+        "trabajo",
+        "interna"
+      ],
+      "Energía libre de Gibbs teórico": [
+        "temperatura"
+      ],
+      "Energía libre de Gibbs - cálculo": [
+        "energía libre de Gibbs a"
+      ],
+      "verdadero o falso": [
+        "verdad",
+        "verdadero",
+        "veracidad",
+        "falso",
+        "falsedad",
+        "certeza",
+        "ciertas"
+      ]
+    }
   },
   "equilibrio_quimico": {
-    "Cociente de reacción": [
-      "cociente de reacción",
-      "Qc",
-      "está en equilibrio",
-      "encuentra en equilibrio",
-      "encuentra el sistema en equilibrio",
-      "si no lo está",
-      "no se encuentra en equilibrio",
-      "evolucion"
-    ],
-    "Principio de Le Chatelier": [
-      "Le Chatelier",
-      "LeChatelier",
-      "cómo afecta",
-      "cómo afectará",
-      "cómo afectaría",
-      "cómo afectan",
-      "cómo influye",
-      "cómo influirá",
-      "cómo influiría",
-      "influencia",
-      "efecto",
-      "desplaza",
-      "rendimiento",
-      "favorece",
-      "favorecer",
-      "aumenta, disminuye",
-      "permanece constante",
-      "no se modifica",
-      "qué ocurrirá",
-      "qué ocurre",
-      "hacia dónde",
-      "catalizador",
-      "ΔH",
-      "aumentar la temperatura",
-      "aumento de la temperatura",
-      "disminución de la temperatura",
-      "aumentar la presión",
-      "aumento de la presión",
-      "volumen del recipiente",
-      "volumen del reactor"
-    ],
-    "Equilibrio heterogéneo": [
-      "(s)",
-      "sólido",
-      "sin reaccionar",
-      "sin descomponer",
-      "no reacciona",
-      "descompuesto",
-      "que queda",
-      "quedan",
-      "quedarán"
-    ],
-    "Cálculo de Kc y Kp": [
+    "keywords_tema": [
+      "equilibrio químico",
+      "constante de equilibrio",
+      "constantes de equilibrio",
       "Kc",
       "Kp",
-      "valor de K",
-      "valores de K",
-      "las constantes",
-      "constante de equilibrio",
-      "constantes de equilibrio"
-    ],
-    "Ley de Dalton": [
+      "Qc",
+      "cociente de reacción",
+      "le chatelier",
+      "lechatelier",
       "presión parcial",
       "presiones parciales",
       "fracción molar",
-      "fracciones molares",
-      "presión total"
+      "grado de disociación",
+      "desplaza",
+      "⇌",
+      "⇄",
+      "en el equilibrio",
+      "recipiente",
+      "reactor"
     ],
-    "Grado disociación (dato)": [
-      "disocia en un",
-      "disociado en un",
-      "disociado un",
-      "disociándose un",
-      "disociándose el",
-      "descompone en un",
-      "reacciona el",
-      "ha reaccionado el",
-      "grado de disociación es",
-      "conversión sea"
-    ],
-    "Equilibrio en función de alfa": [
-      "se encuentra disociado",
-      "se disocia en un",
-      "atm de presión total",
-      "y presión de",
-      "atmósferas el",
-      "a la presión total de",
-      "presión total del sistema es de"
-    ],
-    "Grado de disociación (cálculo)": [
-      "el grado de disociación del",
-      "el grado de disociación y",
-      "grado de disociación en",
-      "grado de disociación a",
-      "porcentaje de disociación",
-      "porcentaje de",
-      "tanto por ciento"
-    ]
+    "tipos": {
+      "Cociente de reacción": [
+        "cociente de reacción",
+        "Qc",
+        "está en equilibrio",
+        "encuentra en equilibrio",
+        "encuentra el sistema en equilibrio",
+        "si no lo está",
+        "no se encuentra en equilibrio",
+        "evolucion"
+      ],
+      "Principio de Le Chatelier": [
+        "Le Chatelier",
+        "LeChatelier",
+        "cómo afecta",
+        "cómo afectará",
+        "cómo afectaría",
+        "cómo afectan",
+        "cómo influye",
+        "cómo influirá",
+        "cómo influiría",
+        "influencia",
+        "efecto",
+        "desplaza",
+        "rendimiento",
+        "favorece",
+        "favorecer",
+        "aumenta, disminuye",
+        "permanece constante",
+        "no se modifica",
+        "qué ocurrirá",
+        "qué ocurre",
+        "hacia dónde",
+        "catalizador",
+        "ΔH",
+        "aumentar la temperatura",
+        "aumento de la temperatura",
+        "disminución de la temperatura",
+        "aumentar la presión",
+        "aumento de la presión",
+        "volumen del recipiente",
+        "volumen del reactor"
+      ],
+      "Equilibrio heterogéneo": [
+        "(s)",
+        "sólido",
+        "sin reaccionar",
+        "sin descomponer",
+        "no reacciona",
+        "descompuesto",
+        "que queda",
+        "quedan",
+        "quedarán"
+      ],
+      "Cálculo de Kc y Kp": [
+        "Kc",
+        "Kp",
+        "valor de K",
+        "valores de K",
+        "las constantes",
+        "constante de equilibrio",
+        "constantes de equilibrio"
+      ],
+      "Ley de Dalton": [
+        "presión parcial",
+        "presiones parciales",
+        "fracción molar",
+        "fracciones molares",
+        "presión total"
+      ],
+      "Grado disociación (dato)": [
+        "disocia en un",
+        "disociado en un",
+        "disociado un",
+        "disociándose un",
+        "disociándose el",
+        "descompone en un",
+        "reacciona el",
+        "ha reaccionado el",
+        "grado de disociación es",
+        "conversión sea"
+      ],
+      "Equilibrio en función de alfa": [
+        "se encuentra disociado",
+        "se disocia en un",
+        "atm de presión total",
+        "y presión de",
+        "atmósferas el",
+        "a la presión total de",
+        "presión total del sistema es de"
+      ],
+      "Grado de disociación (cálculo)": [
+        "el grado de disociación del",
+        "el grado de disociación y",
+        "grado de disociación en",
+        "grado de disociación a",
+        "porcentaje de disociación",
+        "porcentaje de",
+        "tanto por ciento"
+      ],
+       "verdadero o falso": [
+        "verdad",
+        "verdadero",
+        "veracidad",
+        "falso",
+        "falsedad",
+        "certeza",
+        "ciertas"
+      ]
+    }
   },
-  "configuracion_electronica": {
-    "Verdadero o Falso": [
-      "verdader",
-      "veracidad"
-    ],
-    "Propiedades periódicas": [
-      "radio",
+  "propiedades_periodicas": {
+    "keywords_tema": [
+      "radio atómico",
+      "radio iónico",
       "energía de ionización",
       "afinidad electrónica",
       "electronegatividad"
     ],
-    "Comparación energías de ionización": [
-      "primera energía de ionización"
-    ],
-    "Radio|energía ionización Na+ y Ne": [
-      "Na+"
-    ],
-    "Ion más estable": [
-      "estable"
-    ],
-    "Combinaciones de números cuánticos": [
+    "tipos": {
+       "verdadero o falso": [
+        "verdad",
+        "verdadero",
+        "veracidad",
+        "falso",
+        "falsedad",
+        "certeza",
+        "ciertas"
+      ],
+      "Propiedades periódicas": [
+        "radio",
+        "energía de ionización",
+        "afinidad electrónica",
+        "electronegatividad"
+      ]
+  }
+},
+  "configuracion_electronica": {
+    "keywords_tema": [
+      "configuración electrónica",
+      "configuraciones electrónicas",
       "números cuánticos",
-      "posibles",
-      "electrón diferenciador"
-    ],
-    "Situar elementos en tabla periódica (grupo y período)": [
+      "número cuántico",
+      "orbital",
+      "electrón diferenciador",
+      "número atómico",
+      "Z =",
+      "tabla periódica",
       "período",
-      "grupo"
-    ]
+      "grupo",
+      "radio atómico",
+      "radio iónico",
+      "energía de ionización",
+      "afinidad electrónica",
+      "electronegatividad",
+      "pauli",
+      "hund",
+      "isoelectrónic",
+      "estado fundamental",
+      "estado excitado"
+    ],
+    "tipos": {
+      "verdadero o falso": [
+        "verdad",
+        "verdadero",
+        "veracidad",
+        "falso",
+        "falsedad",
+        "certeza",
+        "ciertas"
+      ],
+      "Propiedades periódicas": [
+        "radio",
+        "energía de ionización",
+        "afinidad electrónica",
+        "electronegatividad"
+      ],
+      "Comparación energías de ionización": [
+        "primera energía de ionización"
+      ],
+      "Radio|energía ionización Na+ y Ne": [
+        "Na+"
+      ],
+      "Ion más estable": [
+        "estable"
+      ],
+      "Combinaciones de números cuánticos": [
+        "números cuánticos",
+        "posibles",
+        "electrón diferenciador"
+      ],
+      "Situar elementos en tabla periódica (grupo y período)": [
+        "período",
+        "grupo"
+      ]
+    }
   },
   "redox": {
-    "ajuste reacciones redox medio básico": [
-      "medio básico",
-      "básico",
-      "KOH",
-      "NaOH",
-      "hidróxido de potasio",
-      "hidróxido de sodio",
-      "presencia de hidróxido"
-    ],
-    "ajuste reacciones redox medio ácido": [
-      "medio ácido",
-      "H2SO4",
-      "ácido sulfúrico",
-      "HNO3",
-      "ácido nítrico",
-      "ácido clorhídrico",
-      "dicromato",
-      "agua acidulada",
-      "acidificada"
-    ],
-    "electrolisis (constante de Faraday como dato del ejercicio)": [
-      "electrol",
-      "96500",
-      "96.500",
-      "faraday",
-      "cuba",
-      "amperios",
-      "intensidad de corriente",
-      "corriente eléctrica",
-      "culombios",
-      "carga eléctrica",
-      "deposit",
-      "fundido",
-      "plateado"
-    ],
-    "pilas galvánicas": [
+    "keywords_tema": [
+      "redox",
+      "oxidación-reducción",
+      "oxidación",
+      "reducción",
+      "oxidante",
+      "reductor",
+      "se oxida",
+      "se reduce",
+      "número de oxidación",
+      "ion-electrón",
+      "semirreacción",
+      "potencial",
+      "E°",
       "pila",
-      "galvánic",
-      "semipila",
-      "semicelda",
+      "electrol",
+      "faraday",
       "ánodo",
       "cátodo",
       "electrodo"
     ],
-    "verdadero o falso": [
-      "verdader",
-      "veracidad",
-      "falsedad",
-      "falso",
-      "falsa",
-      "certeza"
-    ],
-    "notación de la pila (como dato del ejercicio)": [
-      "||",
-      "‖",
-      "notación de una pila",
-      "notación correspondiente",
-      "dada la pila",
-      "se representa por",
-      "notación de una pila es"
-    ],
-    "notación de la pila (se pregunta)": [
-      "notación de la pila",
-      "notación de esa pila",
-      "su notación",
-      "notación simplificada",
-      "notación simbólica",
-      "notación de barras"
-    ],
-    "¿se formará hidrógeno gaseoso?": [
-      "hidrógeno gaseoso",
-      "desprendimiento de hidrógeno",
-      "produciría",
-      "en contacto con ácido",
-      "tratados con un ácido",
-      "disolución acuosa de ácido clorhídrico",
-      "disolución de HCl",
-      "disolución acuosa de HCl",
-      "reacciona con HCl",
-      "H+/H2"
-    ],
-    "pilas galvánicas: cálculo del potencial de la pila": [
-      "fuerza electromotriz",
-      "f.e.m",
-      "potencial de la pila",
-      "potencial estándar de la pila",
-      "potencial electroquímico",
-      "voltaje",
-      "máximo potencial",
-      "potencial que se generaría",
-      "calcule su potencial",
-      "determine el potencial"
-    ],
-    "pilas galvánicas: espontaneidad": [
-      "espontáne",
-      "reaccionará",
-      "reaccionaría",
-      "se oxidará",
-      "se oxidaría",
-      "qué ocurrirá",
-      "qué ocurriría",
-      "qué sucede",
-      "desplazará",
-      "capacidad para oxidar",
-      "puede reaccionar",
-      "puede o no oxidar",
-      "se produce alguna reacción",
-      "más oxidante",
-      "más reductora",
-      "se disuelve",
-      "ánodo de sacrificio",
-      "capa de otro metal"
-    ],
-    "identificar oxidante y reductor": [
-      "agente oxidante",
-      "agente reductor",
-      "el oxidante y el reductor",
-      "especie oxidante",
-      "especie reductora",
-      "oxidante y reductora",
-      "se oxida y",
-      "se oxidan y",
-      "se reduce",
-      "se reducen",
-      "son de oxidación-reducción",
-      "son procesos redox",
-      "son redox",
-      "reacciones redox o no",
-      "es una reacción de oxidación-reducción"
-    ]
+    "tipos": {
+      "ajuste reacciones redox medio básico": [
+        "medio básico",
+        "básico",
+        "KOH",
+        "NaOH",
+        "hidróxido de potasio",
+        "hidróxido de sodio",
+        "presencia de hidróxido"
+      ],
+      "ajuste reacciones redox medio ácido": [
+        "medio ácido",
+        "H2SO4",
+        "ácido sulfúrico",
+        "HNO3",
+        "ácido nítrico",
+        "ácido clorhídrico",
+        "dicromato",
+        "agua acidulada",
+        "acidificada"
+      ],
+      "electrolisis (constante de Faraday como dato del ejercicio)": [
+        "electrol",
+        "96500",
+        "96.500",
+        "faraday",
+        "cuba",
+        "amperios",
+        "intensidad de corriente",
+        "corriente eléctrica",
+        "culombios",
+        "carga eléctrica",
+        "deposit",
+        "fundido",
+        "plateado"
+      ],
+      "pilas galvánicas": [
+        "pila",
+        "galvánic",
+        "semipila",
+        "semicelda",
+        "ánodo",
+        "cátodo",
+        "electrodo"
+      ],
+      "verdadero o falso": [
+        "verdad",
+        "verdadero",
+        "veracidad",
+        "falso",
+        "falsedad",
+        "certeza",
+        "ciertas"
+      ],
+      "notación de la pila (como dato del ejercicio)": [
+        "||",
+        "‖",
+        "notación de una pila",
+        "notación correspondiente",
+        "dada la pila",
+        "se representa por",
+        "notación de una pila es"
+      ],
+      "notación de la pila (se pregunta)": [
+        "notación de la pila",
+        "notación de esa pila",
+        "su notación",
+        "notación simplificada",
+        "notación simbólica",
+        "notación de barras"
+      ],
+      "¿se formará hidrógeno gaseoso?": [
+        "hidrógeno gaseoso",
+        "desprendimiento de hidrógeno",
+        "produciría",
+        "en contacto con ácido",
+        "tratados con un ácido",
+        "disolución acuosa de ácido clorhídrico",
+        "disolución de HCl",
+        "disolución acuosa de HCl",
+        "reacciona con HCl",
+        "H+/H2"
+      ],
+      "pilas galvánicas: cálculo del potencial de la pila": [
+        "fuerza electromotriz",
+        "f.e.m",
+        "potencial de la pila",
+        "potencial estándar de la pila",
+        "potencial electroquímico",
+        "voltaje",
+        "máximo potencial",
+        "potencial que se generaría",
+        "calcule su potencial",
+        "determine el potencial"
+      ],
+      "pilas galvánicas: espontaneidad": [
+        "espontáne",
+        "reaccionará",
+        "reaccionaría",
+        "se oxidará",
+        "se oxidaría",
+        "qué ocurrirá",
+        "qué ocurriría",
+        "qué sucede",
+        "desplazará",
+        "capacidad para oxidar",
+        "puede reaccionar",
+        "puede o no oxidar",
+        "se produce alguna reacción",
+        "más oxidante",
+        "más reductora",
+        "se disuelve",
+        "ánodo de sacrificio",
+        "capa de otro metal"
+      ],
+      "identificar oxidante y reductor": [
+        "agente oxidante",
+        "agente reductor",
+        "el oxidante y el reductor",
+        "especie oxidante",
+        "especie reductora",
+        "oxidante y reductora",
+        "se oxida y",
+        "se oxidan y",
+        "se reduce",
+        "se reducen",
+        "son de oxidación-reducción",
+        "son procesos redox",
+        "son redox",
+        "reacciones redox o no",
+        "es una reacción de oxidación-reducción"
+      ]
+    }
   },
   "enlace_quimico": {
-    "Ciclo de Born-Haber": [
-      "born-haber",
-      "born haber",
-      "ciclo de born",
-      "entalpía de sublimación",
-      "energía de sublimación"
-    ],
-    "Verdadero o Falso": [
-      "verdader",
-      "veracidad",
-      "falsedad",
-      "falsa",
-      "son ciertas"
-    ],
-    "Comparación Born-Haber": [
-      "reticular",
-      "dureza"
-    ],
-    "Estructuras de Lewis": [
-      "lewis"
-    ],
-    "Geometría": [
-      "geometr",
+    "keywords_tema": [
+      "enlace",
+      "lewis",
+      "geometría",
       "rpecv",
       "trpev",
-      "repulsión de pares",
-      "lineal",
-      "tetraédric",
-      "plana triangular",
-      "angular",
-      "ángulo de enlace"
-    ],
-    "Hibridación": [
-      "hibrida",
-      "σ",
-      "π",
-      "enlaces múltiples",
-      "longitud del enlace"
-    ],
-    "Polaridad": [
+      "hibridación",
+      "polaridad",
       "polar",
-      "momento dipolar"
-    ],
-    "Propiedades en función del tipo de enlace": [
-      "en función del tipo de enlace",
-      "atendiendo al tipo de enlace",
-      "identifique el tipo de enlace",
-      "la sustancia que",
-      "una sustancia",
-      "electricidad",
-      "corriente eléctrica",
-      "calor"
-    ],
-    "Fuerzas intermoleculares": [
-      "fuerzas",
+      "momento dipolar",
+      "fuerzas intermoleculares",
       "puentes de hidrógeno",
+      "enlace de hidrógeno",
       "enlaces de hidrógeno",
       "van der waals",
-      "london",
-      "interacciones moleculares",
-      "es un gas",
-      "son gases",
-      "es un líquido",
-      "es líquido",
-      "gaseosa",
-      "sublimar",
-      "vaporizar",
-      "fundir hielo",
-      "de lo esperado"
+      "energía reticular",
+      "born-haber",
+      "born haber",
+      "iónico",
+      "covalente",
+      "metálico",
+      "punto de fusión",
+      "punto de ebullición",
+      "conductividad"
     ],
-    "Tipo de enlace": [
-      "tipo de enlace que",
-      "tipo de enlace de",
-      "tipo de enlace presente",
-      "tipo de enlace interat",
-      "iónico o covalente",
-      "enlaces iónicos",
-      "enlaces covalentes con"
-    ]
+    "tipos": {
+      "Ciclo de Born-Haber": [
+        "born-haber",
+        "born haber",
+        "ciclo de born",
+        "entalpía de sublimación",
+        "energía de sublimación"
+      ],
+     "verdadero o falso": [
+        "verdad",
+        "verdadero",
+        "veracidad",
+        "falso",
+        "falsedad",
+        "certeza",
+        "ciertas"
+      ],
+      "Comparación Born-Haber": [
+        "reticular",
+        "dureza"
+      ],
+      "Estructuras de Lewis": [
+        "lewis"
+      ],
+      "Geometría": [
+        "geometr",
+        "rpecv",
+        "trpev",
+        "repulsión de pares",
+        "lineal",
+        "tetraédric",
+        "plana triangular",
+        "angular",
+        "ángulo de enlace"
+      ],
+      "Hibridación": [
+        "hibrida",
+        "σ",
+        "π",
+        "enlaces múltiples",
+        "longitud del enlace"
+      ],
+      "Polaridad": [
+        "polar",
+        "momento dipolar"
+      ],
+      "Propiedades en función del tipo de enlace": [
+        "en función del tipo de enlace",
+        "atendiendo al tipo de enlace",
+        "identifique el tipo de enlace",
+        "la sustancia que",
+        "una sustancia",
+        "electricidad",
+        "corriente eléctrica",
+        "calor"
+      ],
+      "Fuerzas intermoleculares": [
+        "fuerzas",
+        "puentes de hidrógeno",
+        "enlaces de hidrógeno",
+        "van der waals",
+        "london",
+        "interacciones moleculares",
+        "es un gas",
+        "son gases",
+        "es un líquido",
+        "es líquido",
+        "gaseosa",
+        "sublimar",
+        "vaporizar",
+        "fundir hielo",
+        "de lo esperado"
+      ],
+      "Tipo de enlace": [
+        "tipo de enlace que",
+        "tipo de enlace de",
+        "tipo de enlace presente",
+        "tipo de enlace interat",
+        "iónico o covalente",
+        "enlaces iónicos",
+        "enlaces covalentes con"
+      ]
+    }
   },
   "solubilidad": {
-    "formación de precipitado": [
-      "formará precipitado",
-      "formará un precipitado",
-      "forma precipitado",
-      "forma un precipitado",
-      "formaría precipitado",
-      "producirá precipitado",
-      "precipitará",
-      "precipitaría",
-      "empiece a precipitar",
-      "iniciar la precipitación",
-      "precipita el",
-      "se mezclan",
-      "al mezclar",
-      "volúmenes aditivos"
+    "keywords_tema": [
+      "solubilidad",
+      "soluble",
+      "insoluble",
+      "Kps",
+      "Ks",
+      "producto de solubilidad",
+      "precipit",
+      "ion común",
+      "poco soluble"
     ],
-    "efecto del ion común - cálculo": [
-      "en una disolución 0",
-      "en una disolución acuosa 0",
-      "en una disolución de concentración",
-      "en una disolución de",
-      "de una disolución de concentración",
-      "en presencia de",
-      "totalmente disociad",
-      "concentración de ion"
-    ],
-    "influencia del pH sobre la solubilidad": [
-      "aumentar el pH",
-      "aumento del pH",
-      "aumento de pH",
-      "disminuir el pH",
-      "disminución del pH",
-      "disolución de pH",
-      "medio básico",
-      "medio ácido",
-      "HCl",
-      "NaOH",
-      "procedimientos químicos"
-    ],
-    "cálculo de solubilidad o producto de solubilidad": [
-      "calcule",
-      "calcular",
-      "determine",
-      "solubilidad molar",
-      "g/L",
-      "mg/L",
-      "g·L",
-      "mg·L",
-      "masas atómicas",
-      "cuántos gramos",
-      "masa de",
-      "mol/L"
-    ],
-    "cuestiones teóricas": [
-      "verdader",
-      "veracidad",
-      "falsedad",
-      "falsa",
-      "falso",
-      "ciertas",
-      "deduzca",
-      "exprese",
-      "expresión del producto de solubilidad",
-      "en función de la solubilidad",
-      "relación entre",
-      "relaciona",
-      "más soluble",
-      "cómo afecta",
-      "cómo afectará",
-      "cómo varía",
-      "cómo se modificará",
-      "cómo influye",
-      "qué sucederá",
-      "qué le ocurre"
-    ],
-    "efecto del ion común - teórico": [
-      "añad",
-      "adición de",
-      "cantidad de precipitado",
-      "masa del sólido",
-      "uno de los iones",
-      "cómo se modificará la solubilidad",
-      "cómo afecta",
-      "cómo afectará",
-      "aumentará la solubilidad",
-      "disminuye la solubilidad",
-      "qué le ocurre al equilibrio",
-      "qué sucederá"
-    ]
+    "tipos": {
+      "formación de precipitado": [
+        "formará precipitado",
+        "formará un precipitado",
+        "forma precipitado",
+        "forma un precipitado",
+        "formaría precipitado",
+        "producirá precipitado",
+        "precipitará",
+        "precipitaría",
+        "empiece a precipitar",
+        "iniciar la precipitación",
+        "precipita el",
+        "se mezclan",
+        "al mezclar",
+        "volúmenes aditivos"
+      ],
+      "efecto del ion común - cálculo": [
+        "en una disolución 0",
+        "en una disolución acuosa 0",
+        "en una disolución de concentración",
+        "en una disolución de",
+        "de una disolución de concentración",
+        "en presencia de",
+        "totalmente disociad",
+        "concentración de ion"
+      ],
+      "influencia del pH sobre la solubilidad": [
+        "aumentar el pH",
+        "aumento del pH",
+        "aumento de pH",
+        "disminuir el pH",
+        "disminución del pH",
+        "disolución de pH",
+        "medio básico",
+        "medio ácido",
+        "HCl",
+        "NaOH",
+        "procedimientos químicos"
+      ],
+      "cálculo de solubilidad o producto de solubilidad": [
+        "calcule",
+        "calcular",
+        "determine",
+        "solubilidad molar",
+        "g/L",
+        "mg/L",
+        "g·L",
+        "mg·L",
+        "masas atómicas",
+        "cuántos gramos",
+        "masa de",
+        "mol/L"
+      ],
+      "efecto del ion común - teórico": [
+        "añad",
+        "adición de",
+        "cantidad de precipitado",
+        "masa del sólido",
+        "uno de los iones",
+        "cómo se modificará la solubilidad",
+        "cómo afecta",
+        "cómo afectará",
+        "aumentará la solubilidad",
+        "disminuye la solubilidad",
+        "qué le ocurre al equilibrio",
+        "qué sucederá"
+      ],
+       "verdadero o falso": [
+        "verdad",
+        "verdadero",
+        "veracidad",
+        "falso",
+        "falsedad",
+        "certeza",
+        "ciertas",
+        "ciertas"
+      ]
+    }
   },
   "reactividad_organica": {
-    "Reacciones orgánicas": [
-      "reacci",
-      "product",
-      "→",
-      "->",
-      "complete",
-      "adición",
-      "adiciona",
+    "keywords_tema": [
+      "orgánic",
+      "alcano",
+      "alqueno",
+      "alquino",
+      "alcohol",
+      "aldehído",
+      "cetona",
+      "ácido carboxílico",
+      "éster",
+      "amina",
+      "amida",
+      "hidrocarburo",
+      "grupo funcional",
+      "isómer",
+      "isomería",
+      "markovnikov",
       "sustitución",
       "eliminación",
-      "combustión",
-      "deshidrata",
-      "hidrogenación",
-      "hidratación",
-      "nitración",
-      "cloración",
-      "halogenuro",
-      "Markovnikov",
-      "reactivo",
-      "transformación",
-      "catalizador",
-      "se obtiene",
-      "obtener",
-      "en presencia de"
-    ],
-    "Isomería": [
-      "isomería",
-      "isómer",
-      "isomer",
-      "estereoisomer",
-      "óptica",
-      "geométric",
-      "cis-trans",
-      "quiral",
-      "asimétrico",
-      "luz polarizada",
-      "plano de polarización",
-      "actividad óptica"
-    ],
-    "Hidrocarburos": [
-      "hidrocarburo",
-      "hibridación",
-      "sp2",
-      "sp3",
-      "serie homóloga",
-      "geometría",
-      "lineal",
-      "longitud del enlace",
-      "tetraédrica",
-      "CH4",
-      "C2H6",
-      "C2H4",
-      "C2H2",
-      "C3H8",
-      "C3H6",
-      "C4H10",
-      "C4H8",
-      "C6H6",
-      "C8H10",
+      "esterificación",
+      "polímero",
       "benceno"
     ],
-    "Verdadero / falso": [
-      "verdader",
-      "veracidad",
-      "falsedad",
-      "falsa",
-      "falso"
-    ]
+    "tipos": {
+      "Reacciones orgánicas": [
+        "reacci",
+        "product",
+        "→",
+        "->",
+        "complete",
+        "adición",
+        "adiciona",
+        "sustitución",
+        "eliminación",
+        "combustión",
+        "deshidrata",
+        "hidrogenación",
+        "hidratación",
+        "nitración",
+        "cloración",
+        "halogenuro",
+        "Markovnikov",
+        "reactivo",
+        "transformación",
+        "catalizador",
+        "se obtiene",
+        "obtener",
+        "en presencia de"
+      ],
+      "Isomería": [
+        "isomería",
+        "isómer",
+        "isomer",
+        "estereoisomer",
+        "óptica",
+        "geométric",
+        "cis-trans",
+        "quiral",
+        "asimétrico",
+        "luz polarizada",
+        "plano de polarización",
+        "actividad óptica"
+      ],
+      "Hidrocarburos": [
+        "hidrocarburo",
+        "hibridación",
+        "sp2",
+        "sp3",
+        "serie homóloga",
+        "geometría",
+        "lineal",
+        "longitud del enlace",
+        "tetraédrica",
+        "CH4",
+        "C2H6",
+        "C2H4",
+        "C2H2",
+        "C3H8",
+        "C3H6",
+        "C4H10",
+        "C4H8",
+        "C6H6",
+        "C8H10",
+        "benceno"
+      ],
+       "verdadero o falso": [
+        "verdad",
+        "verdadero",
+        "veracidad",
+        "falso",
+        "falsedad",
+        "certeza",
+        "ciertas"
+      ]
+    }
   }
 }
