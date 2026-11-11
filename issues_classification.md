@@ -38,6 +38,11 @@ Los marcados con 🧪 se han reproducido ejecutando el código.
   - Inicializar al principio de la función: `exercise_topic, exercise_types = "", []`.
   - Ajustar el patrón del modelo nuevo para reconocer la 5: `r"^(\d[AB]|PREGUNTA 5)"` (y mapearla a la clave `"5"`), o que `split_exercises` la renombre a `"5."` directamente.
 
+### 3b. Modelo 2020–2023: `A1` (formulación) no se detecta y da `KeyError` 🧪
+- En ese modelo `exercise_number_key = exercise_number[0][0]` vale `"A"`, `"B"` o `"C"`, pero la condición de formulación comprueba `exercise_number_key == "1"`, que nunca se cumple.
+- El ejercicio pasa a clasificarse con `tipos_dict["A"]`, que incluye `"formulacion_organica"`, y ese tema no existe en `quimica_keywords.json` → `KeyError: 'formulacion_organica'`.
+- **Propuesta:** en 2020–2023 comprobar el número completo (`exercise_number == "A1"`) y añadir a `quimica_keywords.json` todos los temas que aparecen en `tipos_ejercicio.json` (o saltarse los que no tengan keywords con `keywords.get(topic)`).
+
 ### 4. ✅ Tipos de ejercicio sacados del tema equivocado
 - Se usaba `keywords[topic]` (variable del bucle) en vez de `keywords[exercise_topic]`. Corregido en `2a8e032`, con la comprobación `if exercise_topic:`.
 
