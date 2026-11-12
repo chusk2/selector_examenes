@@ -1,0 +1,77 @@
+{
+    "modelo_2024+": {
+        "tipo_numeración" : "1A, 1B, 2A, 2B, ..., 4B, 5",
+        "1": [
+            "configuración_electrónica",
+            "propiedades_periódicas",
+            "enlace_químico"
+        ],
+        "2": [
+            "equilibrio_químico",
+            "cinética",
+            "ácido_base",
+            "redox",
+            "termoquímica"
+        ],
+        "3": [
+            "termoquímica",
+            "solubilidad",
+            "ácido_base",
+            "redox"
+        ],
+        "4A": [
+            "formulacion_orgánica"
+        ],
+        "4B": [
+            "reactividad_orgánica"
+        ],
+        "5": [
+            "ácido_base",
+            "redox",
+            "equilibrio_químico",
+            "solubilidad"
+        ]
+    },
+    "modelo_2020_2023": {
+        "tipo_numeración" : "A1. , A2. , B1. a B6., C1. a C4.",
+        "B": [
+            "configuración_electrónica",
+            "propiedades_periódicas",
+            "cinética",
+            "enlace_químico",
+            "equilibrio_químico",
+            "solubilidad",
+            "ácido_base",
+            "redox",
+            "reactividad_orgánica"
+        ],
+        "C": [
+            "equilibrio_químico",
+            "solubilidad",
+            "ácido_base",
+            "redox"
+        ]
+    },
+    "modelo_2010_2019": {
+        "tipo_numeración" : "1.- , 2.- , ...",
+        "2,3,4": [
+            "configuración_electrónica",
+            "propiedades_periódicas",
+            "enlace_químico",
+            "cinética",
+            "equilibrio_químico",
+            "solubilidad",
+            "ácido_base",
+            "redox",
+            "reactividad_orgánica",
+            "termoquímica"
+        ],
+        "5,6": [
+            "equilibrio_químico",
+            "solubilidad",
+            "ácido_base",
+            "termoquímica",
+            "redox"
+        ]
+    }
+}

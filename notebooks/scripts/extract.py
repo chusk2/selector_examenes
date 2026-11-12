@@ -228,22 +228,22 @@ def extract_exercises_from_pdf(file: Path) -> str:
     return exam_text
 
 
-def split_exercises(exam_text: str, year_period: int) -> list:
+def split_exercises(exam_text: str, exam_period: str) -> list:
     """Divide el texto del examen en ejercicios.
     El parámetro year_period ajusta el nombre de los ejercicios
     acorde al periodo del examen:
-    - 2010 - 2019: year_period = 0
-    - 2020 - 2024: year_period = 1
-    - 2025 - : year_period = 2
+    - 2010 - 2019: year_period = 2010-2019
+    - 2020 - 2024: year_period = 2020-2024
+    - 2025 - : year_period = 2025+
     """
-    if year_period not in range(3):
+    if exam_period not in ["2010-2019", "2020-2024", "2025+"]:
         raise ValueError("Código de año de examen incorrecto.")
 
     # pattern to split exercises
     # depending on exercise year period
-    if year_period == 0:
+    if exam_period == "2010-2019":
         pattern = r"^\d{1}\.-"  # 3.-
-    elif year_period == 1:
+    elif exam_period == "2020-2024":
         pattern = r"^[ABC]\d{1}\."  # B2.
     else:
         pattern = r"^\d{1}[AB]\.|PREGUNTA 5\."
@@ -251,18 +251,24 @@ def split_exercises(exam_text: str, year_period: int) -> list:
     # extract exercise numbers
     exercise_numbers = re.findall(pattern, exam_text, flags=re.MULTILINE)
 
+    exam_option = None
+    # añadir opción si es examen 2010-2019
+    if exam_period == "2010-2019":
+        exercise_numbers_integer = [int(i.replace(".-", "")) for i in exercise_numbers]
+        exam_option = ["Opción A" if n <= 5 else "Opción B" for n in exercise_numbers_integer]
+    
     # split exam_text using exercise number pattern
     exercises = re.split(pattern, exam_text, flags=re.M)
 
     # concatenate exercise number and exercise statement
     # exercises start from index 1
-    exercises_list = [f"{ex_number}{exercise}" for ex_number, exercise in zip(exercise_numbers, exercises[1:])]
+    exercises_list = [(exam_option, f"{ex_number}{exercise}") for ex_number, exercise in zip(exercise_numbers, exercises[1:])]
 
     # special exercise number for competencial exercise
-    # in exams from 2024
-    if year_period == 2:
+    # in exams from 2025+
+    if exam_period == "2025+":
         # extract last exercise ("competencial")
-        competencial_exercise = exercises_list[-1]
+        competencial_exercise = exercises_list[-1][1]
         # split into lines
         competencial_lines = competencial_exercise.split("\n")
         # shorten first line of competencial
@@ -270,6 +276,6 @@ def split_exercises(exam_text: str, year_period: int) -> list:
         # join all lines back
         competencial_exercise = "\n".join(competencial_lines)
         # replace modified last exercise into exercises list
-        exercises_list[-1] = competencial_exercise
+        exercises_list[-1][1] = competencial_exercise
 
     return exercises_list

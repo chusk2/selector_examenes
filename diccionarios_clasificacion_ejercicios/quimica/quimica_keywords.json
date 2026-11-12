@@ -1,5 +1,5 @@
 {
-  "acido_base": {
+  "ácido_base": {
     "keywords_tema": [
       "ácido",
       "base",
@@ -82,7 +82,7 @@
       ]
     }
   },
-  "cinetica": {
+  "cinética": {
     "keywords_tema": [
       "velocidad",
       "cinética",
@@ -113,7 +113,7 @@
       ]
     }
   },
-  "termoquimica": {
+  "termoquímica": {
     "keywords_tema": [
       "entalpía",
       "ΔH",
@@ -177,7 +177,7 @@
       ]
     }
   },
-  "equilibrio_quimico": {
+  "equilibrio_químico": {
     "keywords_tema": [
       "equilibrio químico",
       "constante de equilibrio",
@@ -310,7 +310,7 @@
       ]
     }
   },
-  "propiedades_periodicas": {
+  "propiedades_periódicas": {
     "keywords_tema": [
       "radio atómico",
       "radio iónico",
@@ -336,7 +336,7 @@
       ]
   }
 },
-  "configuracion_electronica": {
+  "configuración_electrónica": {
     "keywords_tema": [
       "configuración electrónica",
       "configuraciones electrónicas",
@@ -416,7 +416,8 @@
       "faraday",
       "ánodo",
       "cátodo",
-      "electrodo"
+      "electrodo",
+      "F = 96500 C"
     ],
     "tipos": {
       "ajuste reacciones redox medio básico": [
@@ -439,7 +440,7 @@
         "agua acidulada",
         "acidificada"
       ],
-      "electrolisis (constante de Faraday como dato del ejercicio)": [
+      "electrolisis": [
         "electrol",
         "96500",
         "96.500",
@@ -552,7 +553,7 @@
       ]
     }
   },
-  "enlace_quimico": {
+  "enlace_químico": {
     "keywords_tema": [
       "enlace",
       "lewis",
@@ -576,7 +577,10 @@
       "metálico",
       "punto de fusión",
       "punto de ebullición",
-      "conductividad"
+      "conductividad",
+      "electricidad",
+      "hilos",
+      "láminas"
     ],
     "tipos": {
       "Ciclo de Born-Haber": [
@@ -754,7 +758,7 @@
       ]
     }
   },
-  "reactividad_organica": {
+  "reactividad_orgánica": {
     "keywords_tema": [
       "orgánic",
       "alcano",
