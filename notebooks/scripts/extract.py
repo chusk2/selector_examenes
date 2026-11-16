@@ -251,18 +251,19 @@ def split_exercises(exam_text: str, exam_period: str) -> list:
     # extract exercise numbers
     exercise_numbers = re.findall(pattern, exam_text, flags=re.MULTILINE)
 
-    exam_options = None
     # añadir opción si es examen 2010-2019
     if exam_period == "2010-2019":
         exercise_numbers_integer = [int(i.replace(".-", "")) for i in exercise_numbers]
         exam_options = ["Opción A" if n <= 5 else "Opción B" for n in exercise_numbers_integer]
-    
+    else:
+        exam_options = [None for _ in range(len(exercise_numbers))]
+
     # split exam_text using exercise number pattern
     exercises = re.split(pattern, exam_text, flags=re.M)
 
     # concatenate exercise number and exercise statement
     # exercises start from index 1
-    exercises_list = [(exam_option, f"{ex_number}{exercise}") for exam_option, ex_number, exercise in zip(exam_options, exercise_numbers, exercises[1:])]
+    exercises_list = [[exam_option, f"{ex_number}{exercise}"] for exam_option, ex_number, exercise in zip(exam_options, exercise_numbers, exercises[1:])]
 
     # special exercise number for competencial exercise
     # in exams from 2025+
