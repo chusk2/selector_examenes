@@ -1,5 +1,5 @@
 {
-    "modelo_2024+": {
+    "modelo_2025+": {
         "tipo_numeración" : "1A, 1B, 2A, 2B, ..., 4B, 5",
         "1": [
             "configuración_electrónica",
@@ -32,7 +32,7 @@
             "solubilidad"
         ]
     },
-    "modelo_2020_2023": {
+    "modelo_2020_2024": {
         "tipo_numeración" : "A1. , A2. , B1. a B6., C1. a C4.",
         "B": [
             "configuración_electrónica",
