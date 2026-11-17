@@ -563,6 +563,7 @@
       "hibridación",
       "polaridad",
       "polar",
+      "soluble",
       "momento dipolar",
       "fuerzas intermoleculares",
       "puentes de hidrógeno",
@@ -656,10 +657,7 @@
         "de lo esperado"
       ],
       "Tipo de enlace": [
-        "tipo de enlace que",
-        "tipo de enlace de",
-        "tipo de enlace presente",
-        "tipo de enlace interat",
+        "tipo de enlace",
         "iónico o covalente",
         "enlaces iónicos",
         "enlaces covalentes con"
