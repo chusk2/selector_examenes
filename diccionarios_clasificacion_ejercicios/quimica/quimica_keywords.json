@@ -1,12 +1,12 @@
 {
-  "ácido_base": {
+  "acido_base": {
     "keywords_tema": [
       "ácido",
       "base",
       "pH",
       "pOH",
-      "Ka =",
-      "Kb =",
+      "Ka\\s*=",
+      "Kb\\s*=",
       "Ka del",
       "Kb del",
       "Ka de",
@@ -27,7 +27,7 @@
       "monoprótico",
       "diprótico"
     ],
-    "tipos": {
+    "tipos_ejercicio": {
       "disoluciones": [
         "riqueza",
         "densidad",
@@ -82,7 +82,7 @@
       ]
     }
   },
-  "cinética": {
+  "cinetica": {
     "keywords_tema": [
       "velocidad",
       "cinética",
@@ -92,7 +92,7 @@
       "constante de velocidad",
       "energía de activación",
       "ecuación de velocidad",
-      "v = k",
+      "v\\s*=\\s*k",
       "arrhenius",
       "mecanismo",
       "etapa elemental",
@@ -100,9 +100,9 @@
       "complejo activado",
       "catalizador"
     ],
-    "tipos": {
+    "tipos_ejercicio": {
       "cinética": [
-        "v = k",
+        "v\\s*=\\s*k",
         "velocidad de reacción",
         "catalizador",
         "energía de activación",
@@ -113,7 +113,7 @@
       ]
     }
   },
-  "termoquímica": {
+  "termoquimica": {
     "keywords_tema": [
       "entalpía",
       "ΔH",
@@ -133,13 +133,13 @@
       "calor absorbido",
       "combustión"
     ],
-    "tipos": {
+    "tipos_ejercicio": {
       "Entalpías de enlace": [
-        "C-C",
+        "C\\s*[-−–]\\s*C",
         "enlace"
       ],
       "Cálculo de entropía": [
-        "S°(J·mol⁻¹·K⁻¹)",
+        "S°\\(J·mol⁻¹·K⁻¹\\)",
         "entropía",
         "Calcule la variación de entropía"
       ],
@@ -154,7 +154,7 @@
       "Relación entalpía y energía interna": [
         "a volumen constante",
         "a presión constante",
-        "R= 8,31 J·mol⁻¹·K⁻¹"
+        "R\\s*=\\s*8,31 J·mol⁻¹·K⁻¹"
       ],
       "1er Principio de la Termodinámica": [
         "trabajo",
@@ -177,7 +177,7 @@
       ]
     }
   },
-  "equilibrio_químico": {
+  "equilibrio_quimico": {
     "keywords_tema": [
       "equilibrio químico",
       "constante de equilibrio",
@@ -199,7 +199,7 @@
       "recipiente",
       "reactor"
     ],
-    "tipos": {
+    "tipos_ejercicio": {
       "Cociente de reacción": [
         "cociente de reacción",
         "Qc",
@@ -243,7 +243,7 @@
         "volumen del reactor"
       ],
       "Equilibrio heterogéneo": [
-        "(s)",
+        "\\(s\\)",
         "sólido",
         "sin reaccionar",
         "sin descomponer",
@@ -310,18 +310,21 @@
       ]
     }
   },
-  "propiedades_periódicas": {
+  "propiedades_periodicas": {
     "keywords_tema": [
-      "radio atómico",
-      "radio iónico",
-      "energía de ionización",
+      "radio",
+      "ionización",
       "afinidad electrónica",
-      "electronegatividad"
+      "electronegativ",
+      "carácter metálico",
+      "divalente", "monovalente",
+      "arrancar un electrón",
+      "M\\+", "M2\\+",
+      "tendencia a", "metal", "reactividad"
     ],
-    "tipos": {
+    "tipos_ejercicio": {
        "verdadero o falso": [
         "verdad",
-        "verdadero",
         "veracidad",
         "falso",
         "falsedad",
@@ -330,70 +333,83 @@
       ],
       "Propiedades periódicas": [
         "radio",
-        "energía de ionización",
+        "ionización",
         "afinidad electrónica",
-        "electronegatividad"
-      ]
+        "electronegativ"
+      ],
+      "Comparación energías de ionización": [
+        "primera energía de ionización", "kJ"
+      ],
+      "Isoelectrónicos" :["isoelectr", "Li\\+", "He ", "Ne ", "K\\+", "Na\\+"]
+      
   }
 },
-  "configuración_electrónica": {
+  "configuracion_electronica": {
     "keywords_tema": [
       "configuración electrónica",
       "configuraciones electrónicas",
       "números cuánticos",
       "número cuántico",
+      "combinación",
+      "desapareado",
+      "estado fundamental",
+      "partículas",
+      "protones",
+      "electrones",
+      "neutrones",
+      "isótopo",
       "orbital",
       "electrón diferenciador",
       "número atómico",
-      "Z =",
+      "Z\\s*=",
       "tabla periódica",
       "período",
+      "periodo",
       "grupo",
-      "radio atómico",
-      "radio iónico",
-      "energía de ionización",
-      "afinidad electrónica",
-      "electronegatividad",
       "pauli",
       "hund",
       "isoelectrónic",
       "estado fundamental",
-      "estado excitado"
+      "estado excitado",
+      "ion estable",
+      "ion más estable",
+      "gas noble",
+      "sistema periódico",
+      "número másico",
+      "oxidación",
+      "valencia",
+      "bohr", "Bohr"
     ],
-    "tipos": {
+    "tipos_ejercicio": {
       "verdadero o falso": [
         "verdad",
-        "verdadero",
         "veracidad",
-        "falso",
-        "falsedad",
+        "fals",
         "certeza",
         "ciertas"
-      ],
-      "Propiedades periódicas": [
-        "radio",
-        "energía de ionización",
-        "afinidad electrónica",
-        "electronegatividad"
-      ],
-      "Comparación energías de ionización": [
-        "primera energía de ionización"
-      ],
-      "Radio|energía ionización Na+ y Ne": [
-        "Na+"
-      ],
+      ],      
       "Ion más estable": [
-        "estable"
+        "estable", "más probable", "oxidación", "ion estable", "iones más estables",
+        "ión estable"
       ],
       "Combinaciones de números cuánticos": [
         "números cuánticos",
+        "combinaci",
         "posibles",
         "electrón diferenciador"
       ],
       "Situar elementos en tabla periódica (grupo y período)": [
-        "período",
-        "grupo"
-      ]
+        "grupo y periodo", "grupo y el periodo", "a qué grupo", "situación", "sitúe", "posición",
+        "protones, respectivamente"]
+      ,
+      "Comparar energía de orbitales" : ["creciente de energía", "según su energía", "energía creciente",
+      "orbitales tiene mayor energía","misma energía","energético"],
+      "Composición atómica": ["neutrones", "núcleo", "número másico"],
+      "Isoelectrónicos" :["isoelectr", "Li\\+", "He", "Ne", "K\\+", "Na\\+", "mismo número de electrones", "misma configuración electrónica", "igual al del átomo"],
+      "electrones desapareados" : ["desaparea"],
+      "isótopos" : ["isótopo"],
+      "Capacidad de niveles y orbitales": ["número máximo de electrones", "cuántos orbitales", "caben"],
+      "Identificar elemento": ["identifique", "de qué elemento se trata", "es un gas noble"]
     }
   },
   "redox": {
@@ -417,9 +433,9 @@
       "ánodo",
       "cátodo",
       "electrodo",
-      "F = 96500 C"
+      "F\\s*=\\s*96\\.?500\\s*C"
     ],
-    "tipos": {
+    "tipos_ejercicio": {
       "ajuste reacciones redox medio básico": [
         "medio básico",
         "básico",
@@ -443,7 +459,7 @@
       "electrolisis": [
         "electrol",
         "96500",
-        "96.500",
+        "96\\.500",
         "faraday",
         "cuba",
         "amperios",
@@ -474,7 +490,7 @@
         "ciertas"
       ],
       "notación de la pila (como dato del ejercicio)": [
-        "||",
+        "\\|\\|",
         "‖",
         "notación de una pila",
         "notación correspondiente",
@@ -504,7 +520,7 @@
       ],
       "pilas galvánicas: cálculo del potencial de la pila": [
         "fuerza electromotriz",
-        "f.e.m",
+        "f\\.e\\.m",
         "potencial de la pila",
         "potencial estándar de la pila",
         "potencial electroquímico",
@@ -553,7 +569,7 @@
       ]
     }
   },
-  "enlace_químico": {
+  "enlace_quimico": {
     "keywords_tema": [
       "enlace",
       "lewis",
@@ -581,9 +597,10 @@
       "conductividad",
       "electricidad",
       "hilos",
-      "láminas"
+      "láminas",
+      "fuerza"
     ],
-    "tipos": {
+    "tipos_ejercicio": {
       "Ciclo de Born-Haber": [
         "born-haber",
         "born haber",
@@ -593,10 +610,8 @@
       ],
      "verdadero o falso": [
         "verdad",
-        "verdadero",
         "veracidad",
-        "falso",
-        "falsedad",
+        "fals",
         "certeza",
         "ciertas"
       ],
@@ -604,6 +619,7 @@
         "reticular",
         "dureza"
       ],
+      "comparación pto. fusión / ebullución" :["fusión", "ebullición"],
       "Estructuras de Lewis": [
         "lewis"
       ],
@@ -621,10 +637,12 @@
       "Hibridación": [
         "hibrida",
         "σ",
-        "π",
-        "enlaces múltiples",
-        "longitud del enlace"
+        "π"
       ],
+      "Enlaces múltiples" : ["doble ",
+        "simple ",
+        "triple ", "enlaces múltiples"],
+      "Hibridación carbono": ["longitud del enlace", "\\bet[aei]no\\b", "hibridaci[oó]n[^.]{0,80}carbono", "C\\s*2\\s*H\\s*[246]"],
       "Polaridad": [
         "polar",
         "momento dipolar"
@@ -637,6 +655,7 @@
         "una sustancia",
         "electricidad",
         "corriente eléctrica",
+        "conductividad",
         "calor"
       ],
       "Fuerzas intermoleculares": [
@@ -660,7 +679,8 @@
         "tipo de enlace",
         "iónico o covalente",
         "enlaces iónicos",
-        "enlaces covalentes con"
+        "enlaces covalentes con",
+        "naturaleza del enlace"
       ]
     }
   },
@@ -676,7 +696,7 @@
       "ion común",
       "poco soluble"
     ],
-    "tipos": {
+    "tipos_ejercicio": {
       "formación de precipitado": [
         "formará precipitado",
         "formará un precipitado",
@@ -756,7 +776,7 @@
       ]
     }
   },
-  "reactividad_orgánica": {
+  "reactividad_organica": {
     "keywords_tema": [
       "orgánic",
       "alcano",
@@ -780,7 +800,7 @@
       "polímero",
       "benceno"
     ],
-    "tipos": {
+    "tipos_ejercicio": {
       "Reacciones orgánicas": [
         "reacci",
         "product",
@@ -823,23 +843,23 @@
       "Hidrocarburos": [
         "hidrocarburo",
         "hibridación",
-        "sp2",
-        "sp3",
+        "s\\s*p\\s*2",
+        "s\\s*p\\s*3",
         "serie homóloga",
         "geometría",
         "lineal",
         "longitud del enlace",
         "tetraédrica",
-        "CH4",
-        "C2H6",
-        "C2H4",
-        "C2H2",
-        "C3H8",
-        "C3H6",
-        "C4H10",
-        "C4H8",
-        "C6H6",
-        "C8H10",
+        "CH\\s*4",
+        "C\\s*2\\s*H\\s*6",
+        "C\\s*2\\s*H\\s*4",
+        "C\\s*2\\s*H\\s*2",
+        "C\\s*3\\s*H\\s*8",
+        "C\\s*3\\s*H\\s*6",
+        "C\\s*4\\s*H\\s*10",
+        "C\\s*4\\s*H\\s*8",
+        "C\\s*6\\s*H\\s*6",
+        "C\\s*8\\s*H\\s*10",
         "benceno"
       ],
        "verdadero o falso": [

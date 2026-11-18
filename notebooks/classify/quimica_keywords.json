@@ -5,8 +5,8 @@
       "base",
       "pH",
       "pOH",
-      "Ka =",
-      "Kb =",
+      "Ka\\s*=",
+      "Kb\\s*=",
       "Ka del",
       "Kb del",
       "Ka de",
@@ -92,7 +92,7 @@
       "constante de velocidad",
       "energía de activación",
       "ecuación de velocidad",
-      "v = k",
+      "v\\s*=\\s*k",
       "arrhenius",
       "mecanismo",
       "etapa elemental",
@@ -102,7 +102,7 @@
     ],
     "tipos_ejercicio": {
       "cinética": [
-        "v = k",
+        "v\\s*=\\s*k",
         "velocidad de reacción",
         "catalizador",
         "energía de activación",
@@ -135,11 +135,11 @@
     ],
     "tipos_ejercicio": {
       "Entalpías de enlace": [
-        "C-C",
+        "C\\s*[-−–]\\s*C",
         "enlace"
       ],
       "Cálculo de entropía": [
-        "S°(J·mol⁻¹·K⁻¹)",
+        "S°\\(J·mol⁻¹·K⁻¹\\)",
         "entropía",
         "Calcule la variación de entropía"
       ],
@@ -154,7 +154,7 @@
       "Relación entalpía y energía interna": [
         "a volumen constante",
         "a presión constante",
-        "R= 8,31 J·mol⁻¹·K⁻¹"
+        "R\\s*=\\s*8,31 J·mol⁻¹·K⁻¹"
       ],
       "1er Principio de la Termodinámica": [
         "trabajo",
@@ -243,7 +243,7 @@
         "volumen del reactor"
       ],
       "Equilibrio heterogéneo": [
-        "(s)",
+        "\\(s\\)",
         "sólido",
         "sin reaccionar",
         "sin descomponer",
@@ -319,7 +319,7 @@
       "carácter metálico",
       "divalente", "monovalente",
       "arrancar un electrón",
-      "M+", "M2+",
+      "M\\+", "M2\\+",
       "tendencia a", "metal", "reactividad"
     ],
     "tipos_ejercicio": {
@@ -340,7 +340,7 @@
       "Comparación energías de ionización": [
         "primera energía de ionización", "kJ"
       ],
-      "Isoelectrónicos" :["isoelectr", "Li+", "He ", "Ne ", "K+", "Na+"]
+      "Isoelectrónicos" :["isoelectr", "Li\\+", "He ", "Ne ", "K\\+", "Na\\+"]
       
   }
 },
@@ -361,7 +361,7 @@
       "orbital",
       "electrón diferenciador",
       "número atómico",
-      "Z =",
+      "Z\\s*=",
       "tabla periódica",
       "período",
       "periodo",
@@ -405,7 +405,7 @@
       "Comparar energía de orbitales" : ["creciente de energía", "según su energía", "energía creciente",
       "orbitales tiene mayor energía","misma energía","energético"],
       "Composición atómica": ["neutrones", "núcleo", "número másico"],
-      "Isoelectrónicos" :["isoelectr", "Li+", "He", "Ne", "K+", "Na+", "mismo número de electrones", "misma configuración electrónica", "igual al del átomo"],
+      "Isoelectrónicos" :["isoelectr", "Li\\+", "He", "Ne", "K\\+", "Na\\+", "mismo número de electrones", "misma configuración electrónica", "igual al del átomo"],
       "electrones desapareados" : ["desaparea"],
       "isótopos" : ["isótopo"],
       "Capacidad de niveles y orbitales": ["número máximo de electrones", "cuántos orbitales", "caben"],
@@ -433,7 +433,7 @@
       "ánodo",
       "cátodo",
       "electrodo",
-      "F = 96500 C"
+      "F\\s*=\\s*96\\.?500\\s*C"
     ],
     "tipos_ejercicio": {
       "ajuste reacciones redox medio básico": [
@@ -459,7 +459,7 @@
       "electrolisis": [
         "electrol",
         "96500",
-        "96.500",
+        "96\\.500",
         "faraday",
         "cuba",
         "amperios",
@@ -490,7 +490,7 @@
         "ciertas"
       ],
       "notación de la pila (como dato del ejercicio)": [
-        "||",
+        "\\|\\|",
         "‖",
         "notación de una pila",
         "notación correspondiente",
@@ -520,7 +520,7 @@
       ],
       "pilas galvánicas: cálculo del potencial de la pila": [
         "fuerza electromotriz",
-        "f.e.m",
+        "f\\.e\\.m",
         "potencial de la pila",
         "potencial estándar de la pila",
         "potencial electroquímico",
@@ -597,7 +597,8 @@
       "conductividad",
       "electricidad",
       "hilos",
-      "láminas"
+      "láminas",
+      "fuerza"
     ],
     "tipos_ejercicio": {
       "Ciclo de Born-Haber": [
@@ -609,17 +610,17 @@
       ],
      "verdadero o falso": [
         "verdad",
-        "verdadero",
         "veracidad",
-        "falso",
-        "falsedad",
+        "fals",
         "certeza",
         "ciertas"
       ],
       "Comparación Born-Haber": [
         "reticular",
-        "dureza"
+        "dureza",
+        "(Mg|Ba|K|Na|Cs|Li)\\s*\\d*\\s*(F|Cl|O)"
       ],
+      "comparación pto. fusión / ebullución" :["fusión", "ebullición"],
       "Estructuras de Lewis": [
         "lewis"
       ],
@@ -637,10 +638,14 @@
       "Hibridación": [
         "hibrida",
         "σ",
-        "π",
-        "enlaces múltiples",
-        "longitud del enlace"
+        "π"
       ],
+      "Enlaces múltiples" : ["doble ",
+        "simple ",
+        "triple ", "enlaces múltiples"],
+      "Hibridación carbono": ["longitud del enlace", "\\bet[ei]no\\b",
+      "hibridaci[oó]n[^.]{0,80}carbono", "carbono[^.]{0,80}hibridaci[oó]n",
+      "C\\s*2\\s*H\\s*[246]", "átomo de carbono"],
       "Polaridad": [
         "polar",
         "momento dipolar"
@@ -653,6 +658,7 @@
         "una sustancia",
         "electricidad",
         "corriente eléctrica",
+        "conductividad",
         "calor"
       ],
       "Fuerzas intermoleculares": [
@@ -666,17 +672,23 @@
         "son gases",
         "es un líquido",
         "es líquido",
+        "es sólido",
         "gaseosa",
         "sublimar",
         "vaporizar",
         "fundir hielo",
-        "de lo esperado"
+        "de lo esperado",
+        "el bromo es líquido"
       ],
+      "Solubilidad compuestos covalentes moleculares" : ["soluble", "solubilidad"],
       "Tipo de enlace": [
         "tipo de enlace",
         "iónico o covalente",
         "enlaces iónicos",
-        "enlaces covalentes con"
+        "enlaces covalentes con",
+        "naturaleza del enlace",
+        "covalente dativo",
+        "coordinado"
       ]
     }
   },
@@ -839,23 +851,23 @@
       "Hidrocarburos": [
         "hidrocarburo",
         "hibridación",
-        "sp2",
-        "sp3",
+        "s\\s*p\\s*2",
+        "s\\s*p\\s*3",
         "serie homóloga",
         "geometría",
         "lineal",
         "longitud del enlace",
         "tetraédrica",
-        "CH4",
-        "C2H6",
-        "C2H4",
-        "C2H2",
-        "C3H8",
-        "C3H6",
-        "C4H10",
-        "C4H8",
-        "C6H6",
-        "C8H10",
+        "CH\\s*4",
+        "C\\s*2\\s*H\\s*6",
+        "C\\s*2\\s*H\\s*4",
+        "C\\s*2\\s*H\\s*2",
+        "C\\s*3\\s*H\\s*8",
+        "C\\s*3\\s*H\\s*6",
+        "C\\s*4\\s*H\\s*10",
+        "C\\s*4\\s*H\\s*8",
+        "C\\s*6\\s*H\\s*6",
+        "C\\s*8\\s*H\\s*10",
         "benceno"
       ],
        "verdadero o falso": [
