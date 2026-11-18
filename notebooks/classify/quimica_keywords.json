@@ -799,7 +799,13 @@
       "eliminación",
       "esterificación",
       "polímero",
-      "benceno"
+      "benceno",
+      "combustión",
+      "Complete las siguientes reacciones",
+      "grupo funcional",
+      "serie homologa",
+      "serie homóloga",
+      "fórmula (semi)?desarrollada"
     ],
     "tipos_ejercicio": {
       "Reacciones orgánicas": [
@@ -863,12 +869,12 @@
         "C\\s*8\\s*H\\s*10",
         "benceno"
       ],
+      "tipo grupo funcional" : ["grupo funcional"],
+      "serie homóloga" : ["serie homóloga", "serie homologa"],
        "verdadero o falso": [
         "verdad",
-        "verdadero",
         "veracidad",
-        "falso",
-        "falsedad",
+        "fals",
         "certeza",
         "ciertas"
       ]
