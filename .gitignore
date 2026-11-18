@@ -4,3 +4,4 @@ __pycache__
 *.pdf
 *_quimica*
 .DS_Store
+notebooks/classify/temas/
