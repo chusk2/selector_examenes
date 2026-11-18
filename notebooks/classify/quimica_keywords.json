@@ -107,6 +107,7 @@
         "catalizador",
         "energía de activación",
         "constante de velocidad",
+        "diagrama ent[aá]lpico",
         "cinética",
         "orden total",
         "ecuación de velocidad"
@@ -131,9 +132,11 @@
       "calor de",
       "calor desprendido",
       "calor absorbido",
-      "combustión"
+      "combustión",
+      "kJ/mol"
     ],
     "tipos_ejercicio": {
+        "energía que se desprende" : ["desprende"],
       "Entalpías de enlace": [
         "C\\s*[-−–]\\s*C",
         "enlace"
@@ -144,13 +147,16 @@
         "Calcule la variación de entropía"
       ],
       "Entalpías de formación": [
-        "entalpías estándar de formación",
-        "ΔH°f"
+        "entalp[ií]as?(?: estándar)? de formaci[oó]n",
+        "ΔH°?f"
       ],
+      "variación energía estequiometría" : ["energía necesaria"],
+      "reacción de combustión" : ["combusti[oó]n"],
       "Ley de Hess": [
         "a partir de los siguientes datos",
         "entalpías de combustión"
       ],
+      "diagrama entálpico" : ["diagrama"],
       "Relación entalpía y energía interna": [
         "a volumen constante",
         "a presión constante",
@@ -161,7 +167,8 @@
         "interna"
       ],
       "Energía libre de Gibbs teórico": [
-        "temperatura"
+        "temperatura",
+        "espont[aá]ne"
       ],
       "Energía libre de Gibbs - cálculo": [
         "energía libre de Gibbs a"
@@ -416,7 +423,7 @@
       "se oxida",
       "se reduce",
       "número de oxidación",
-      "ion-electrón",
+      "i[oó]n[\\s\\-‐‑–—−\u00ad]*electr[oó]n",
       "semirreacción",
       "potencial",
       "E°",
@@ -429,6 +436,7 @@
       "F\\s*=\\s*96\\.?500\\s*C"
     ],
     "tipos_ejercicio": {
+        "ajuste reacción redox": ["i[oó]n[\\s\\-‐‑–—−\u00ad]*elect"],
       "ajuste reacciones redox medio básico": [
         "medio básico",
         "básico",
