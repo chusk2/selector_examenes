@@ -209,11 +209,6 @@
       "Cociente de reacción": [
         "cociente de reacción",
         "Qc",
-        "está en equilibrio",
-        "encuentra en equilibrio",
-        "encuentra el sistema en equilibrio",
-        "si no lo está",
-        "no se encuentra en equilibrio",
         "evolucion"
       ],
       "Principio de Le Chatelier": [
@@ -350,8 +345,8 @@
       "Isoelectrónicos": [
         "isoelectr",
         "Li\\+",
-        "He ",
-        "Ne ",
+        "\\bHe\\b",
+        "\\bNe\\b",
         "K\\+",
         "Na\\+"
       ]
@@ -441,8 +436,8 @@
       "Isoelectrónicos": [
         "isoelectr",
         "Li\\+",
-        "He",
-        "Ne",
+        "\\bHe\\b",
+        "\\bNe\\b",
         "K\\+",
         "Na\\+",
         "mismo número de electrones",
@@ -494,7 +489,7 @@
     ],
     "tipos_ejercicio": {
       "ajuste reacción redox": [
-        "i[oó]n[\\s\\-‐‑–—−­]*elect"
+        " i[oó]n[\\s\\-‐‑–—−­]*elect"
       ],
       "ajuste reacciones redox medio básico": [
         "medio básico",
@@ -506,15 +501,7 @@
         "presencia de hidróxido"
       ],
       "ajuste reacciones redox medio ácido": [
-        "medio ácido",
-        "H2SO4",
-        "ácido sulfúrico",
-        "HNO3",
-        "ácido nítrico",
-        "ácido clorhídrico",
-        "dicromato",
-        "agua acidulada",
-        "acidificada"
+        "medio ácido"
       ],
       "electrolisis": [
         "electrol",
@@ -549,33 +536,13 @@
         "certeza",
         "ciertas"
       ],
-      "notación de la pila (como dato del ejercicio)": [
+      "notación de la pila": [
         "\\|\\|",
         "‖",
-        "notación de una pila",
-        "notación correspondiente",
-        "dada la pila",
-        "se representa por",
-        "notación de una pila es"
-      ],
-      "notación de la pila (se pregunta)": [
-        "notación de la pila",
-        "notación de esa pila",
-        "su notación",
-        "notación simplificada",
-        "notación simbólica",
-        "notación de barras"
+        " notación"
       ],
       "¿se formará hidrógeno gaseoso?": [
-        "hidrógeno gaseoso",
         "desprendimiento de hidrógeno",
-        "produciría",
-        "en contacto con ácido",
-        "tratados con un ácido",
-        "disolución acuosa de ácido clorhídrico",
-        "disolución de HCl",
-        "disolución acuosa de HCl",
-        "reacciona con HCl",
         "H+/H2"
       ],
       "pilas galvánicas: cálculo del potencial de la pila": [
