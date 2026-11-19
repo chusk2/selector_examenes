@@ -424,6 +424,8 @@
       "se reduce",
       "número de oxidación",
       "i[oó]n[\\s\\-‐‑–—−\u00ad]*electr[oó]n",
+      "i[oón]",
+      "electr[oó]n",
       "semirreacción",
       "potencial",
       "E°",
@@ -746,17 +748,11 @@
         "procedimientos químicos"
       ],
       "cálculo de solubilidad o producto de solubilidad": [
-        "calcule",
-        "calcular",
-        "determine",
         "solubilidad molar",
         "g/L",
         "mg/L",
         "g·L",
         "mg·L",
-        "masas atómicas",
-        "cuántos gramos",
-        "masa de",
         "mol/L"
       ],
       "efecto del ion común - teórico": [
