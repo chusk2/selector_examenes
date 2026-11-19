@@ -1,16 +1,11 @@
 {
   "acido_base": {
     "keywords_tema": [
-      "ácido",
       "base",
       "pH",
       "pOH",
       "Ka\\s*=",
       "Kb\\s*=",
-      "Ka del",
-      "Kb del",
-      "Ka de",
-      "Kb de",
       "Kw",
       "constante de acidez",
       "constante de basicidad",
@@ -29,7 +24,6 @@
     ],
     "tipos_ejercicio": {
       "disoluciones": [
-        "riqueza",
         "densidad",
         "disolución comercial",
         "industrial",
@@ -40,17 +34,13 @@
       ],
       "verdadero o falso": [
         "verdad",
-        "verdadero",
         "veracidad",
-        "falso",
-        "falsedad",
+        "fals",
         "certeza",
         "ciertas"
       ],
       "ácido base débil": [
         "débil",
-        "grado",
-        "equilibrio",
         "HA",
         "disocia",
         "monoprótico",
@@ -136,7 +126,9 @@
       "kJ/mol"
     ],
     "tipos_ejercicio": {
-        "energía que se desprende" : ["desprende"],
+      "energía que se desprende": [
+        "desprende"
+      ],
       "Entalpías de enlace": [
         "C\\s*[-−–]\\s*C",
         "enlace"
@@ -150,13 +142,19 @@
         "entalp[ií]as?(?: estándar)? de formaci[oó]n",
         "ΔH°?f"
       ],
-      "variación energía estequiometría" : ["energía necesaria"],
-      "reacción de combustión" : ["combusti[oó]n"],
+      "variación energía estequiometría": [
+        "energía necesaria"
+      ],
+      "reacción de combustión": [
+        "combusti[oó]n"
+      ],
       "Ley de Hess": [
         "a partir de los siguientes datos",
         "entalpías de combustión"
       ],
-      "diagrama entálpico" : ["diagrama"],
+      "diagrama entálpico": [
+        "diagrama"
+      ],
       "Relación entalpía y energía interna": [
         "a volumen constante",
         "a presión constante",
@@ -228,10 +226,14 @@
         "desplaza",
         "rendimiento",
         "favorece",
-        "retirar", "introducir",
-        "adicionar", "eliminar",
-        "aumenta", "disminuye",
-        "disminución", "adición",
+        "retirar",
+        "introducir",
+        "adicionar",
+        "eliminar",
+        "aumenta",
+        "disminuye",
+        "disminución",
+        "adición",
         "permanece constante",
         "no se modifica",
         "qué ocurr",
@@ -299,7 +301,7 @@
         "porcentaje de",
         "tanto por ciento"
       ],
-       "verdadero o falso": [
+      "verdadero o falso": [
         "verdad",
         "verdadero",
         "veracidad",
@@ -317,13 +319,17 @@
       "afinidad electrónica",
       "electronegativ",
       "carácter metálico",
-      "divalente", "monovalente",
+      "divalente",
+      "monovalente",
       "arrancar un electrón",
-      "M\\+", "M2\\+",
-      "tendencia a", "metal", "reactividad"
+      "M\\+",
+      "M2\\+",
+      "tendencia a",
+      "metal",
+      "reactividad"
     ],
     "tipos_ejercicio": {
-       "verdadero o falso": [
+      "verdadero o falso": [
         "verdad",
         "veracidad",
         "falso",
@@ -338,12 +344,19 @@
         "electronegativ"
       ],
       "Comparación energías de ionización": [
-        "primera energía de ionización", "kJ"
+        "primera energía de ionización",
+        "kJ"
       ],
-      "Isoelectrónicos" :["isoelectr", "Li\\+", "He ", "Ne ", "K\\+", "Na\\+"]
-      
-  }
-},
+      "Isoelectrónicos": [
+        "isoelectr",
+        "Li\\+",
+        "He ",
+        "Ne ",
+        "K\\+",
+        "Na\\+"
+      ]
+    }
+  },
   "configuracion_electronica": {
     "keywords_tema": [
       "configuración electrónica",
@@ -378,7 +391,8 @@
       "número másico",
       "oxidación",
       "valencia",
-      "bohr", "Bohr"
+      "bohr",
+      "Bohr"
     ],
     "tipos_ejercicio": {
       "verdadero o falso": [
@@ -387,9 +401,13 @@
         "fals",
         "certeza",
         "ciertas"
-      ],      
+      ],
       "Ion más estable": [
-        "estable", "más probable", "oxidación", "ion estable", "iones más estables",
+        "estable",
+        "más probable",
+        "oxidación",
+        "ion estable",
+        "iones más estables",
         "ión estable"
       ],
       "Combinaciones de números cuánticos": [
@@ -399,17 +417,54 @@
         "electrón diferenciador"
       ],
       "Situar elementos en tabla periódica (grupo y período)": [
-        "grupo y periodo", "grupo y el periodo", "a qué grupo", "situación", "sitúe", "posición",
-        "protones, respectivamente"]
-      ,
-      "Comparar energía de orbitales" : ["creciente de energía", "según su energía", "energía creciente",
-      "orbitales tiene mayor energía","misma energía","energético"],
-      "Composición atómica": ["neutrones", "núcleo", "número másico"],
-      "Isoelectrónicos" :["isoelectr", "Li\\+", "He", "Ne", "K\\+", "Na\\+", "mismo número de electrones", "misma configuración electrónica", "igual al del átomo"],
-      "electrones desapareados" : ["desaparea"],
-      "isótopos" : ["isótopo"],
-      "Capacidad de niveles y orbitales": ["número máximo de electrones", "cuántos orbitales", "caben"],
-      "Identificar elemento": ["identifique", "de qué elemento se trata", "es un gas noble"]
+        "grupo y periodo",
+        "grupo y el periodo",
+        "a qué grupo",
+        "situación",
+        "sitúe",
+        "posición",
+        "protones, respectivamente"
+      ],
+      "Comparar energía de orbitales": [
+        "creciente de energía",
+        "según su energía",
+        "energía creciente",
+        "orbitales tiene mayor energía",
+        "misma energía",
+        "energético"
+      ],
+      "Composición atómica": [
+        "neutrones",
+        "núcleo",
+        "número másico"
+      ],
+      "Isoelectrónicos": [
+        "isoelectr",
+        "Li\\+",
+        "He",
+        "Ne",
+        "K\\+",
+        "Na\\+",
+        "mismo número de electrones",
+        "misma configuración electrónica",
+        "igual al del átomo"
+      ],
+      "electrones desapareados": [
+        "desaparea"
+      ],
+      "isótopos": [
+        "isótopo"
+      ],
+      "Capacidad de niveles y orbitales": [
+        "número máximo de electrones",
+        "cuántos orbitales",
+        "caben"
+      ],
+      "Identificar elemento": [
+        "identifique",
+        "de qué elemento se trata",
+        "es un gas noble"
+      ]
     }
   },
   "redox": {
@@ -438,7 +493,9 @@
       "F\\s*=\\s*96\\.?500\\s*C"
     ],
     "tipos_ejercicio": {
-        "ajuste reacción redox": ["i[oó]n[\\s\\-‐‑–—−\u00ad]*elect"],
+      "ajuste reacción redox": [
+        "i[oó]n[\\s\\-‐‑–—−­]*elect"
+      ],
       "ajuste reacciones redox medio básico": [
         "medio básico",
         "básico",
@@ -611,7 +668,7 @@
         "entalpía de sublimación",
         "energía de sublimación"
       ],
-     "verdadero o falso": [
+      "verdadero o falso": [
         "verdad",
         "veracidad",
         "fals",
@@ -623,7 +680,10 @@
         "dureza",
         "(Mg|Ba|K|Na|Cs|Li)\\s*\\d*\\s*(F|Cl|O)"
       ],
-      "comparación pto. fusión / ebullución" :["fusión", "ebullición"],
+      "comparación pto. fusión / ebullución": [
+        "fusión",
+        "ebullición"
+      ],
       "Estructuras de Lewis": [
         "lewis"
       ],
@@ -643,12 +703,20 @@
         "σ",
         "π"
       ],
-      "Enlaces múltiples" : ["doble ",
+      "Enlaces múltiples": [
+        "doble ",
         "simple ",
-        "triple ", "enlaces múltiples"],
-      "Hibridación carbono": ["longitud del enlace", "\\bet[ei]no\\b",
-      "hibridaci[oó]n[^.]{0,80}carbono", "carbono[^.]{0,80}hibridaci[oó]n",
-      "C\\s*2\\s*H\\s*[246]", "átomo de carbono"],
+        "triple ",
+        "enlaces múltiples"
+      ],
+      "Hibridación carbono": [
+        "longitud del enlace",
+        "\\bet[ei]no\\b",
+        "hibridaci[oó]n[^.]{0,80}carbono",
+        "carbono[^.]{0,80}hibridaci[oó]n",
+        "C\\s*2\\s*H\\s*[246]",
+        "átomo de carbono"
+      ],
       "Polaridad": [
         "polar",
         "momento dipolar"
@@ -683,7 +751,10 @@
         "de lo esperado",
         "el bromo es líquido"
       ],
-      "Solubilidad compuestos covalentes moleculares" : ["soluble", "solubilidad"],
+      "Solubilidad compuestos covalentes moleculares": [
+        "soluble",
+        "solubilidad"
+      ],
       "Tipo de enlace": [
         "tipo de enlace",
         "iónico o covalente",
@@ -769,7 +840,7 @@
         "qué le ocurre al equilibrio",
         "qué sucederá"
       ],
-       "verdadero o falso": [
+      "verdadero o falso": [
         "verdad",
         "verdadero",
         "veracidad",
@@ -873,9 +944,14 @@
         "C\\s*8\\s*H\\s*10",
         "benceno"
       ],
-      "tipo grupo funcional" : ["grupo funcional"],
-      "serie homóloga" : ["serie homóloga", "serie homologa"],
-       "verdadero o falso": [
+      "tipo grupo funcional": [
+        "grupo funcional"
+      ],
+      "serie homóloga": [
+        "serie homóloga",
+        "serie homologa"
+      ],
+      "verdadero o falso": [
         "verdad",
         "veracidad",
         "fals",
