@@ -249,7 +249,7 @@ def split_exercises(exam_text: str, exam_period: str) -> list:
     elif exam_period == "2020-2024":
         pattern = r"^[ABC]\d{1}\."  # B2.
     else:
-        pattern = r"^\d{1}[AB]\.|PREGUNTA 5\."
+        pattern = r"^\d{1}[AB]\.|PREGUNTA 5\.-"
 
     # extract exercise numbers
     exercise_numbers = re.findall(pattern, exam_text, flags=re.MULTILINE)
@@ -257,7 +257,7 @@ def split_exercises(exam_text: str, exam_period: str) -> list:
     # añadir opción si es examen 2010-2019
     if exam_period == "2010-2019":
         exercise_numbers_integer = [int(i.replace(".-", "")) for i in exercise_numbers]
-        exercise_numbers = [f"{n}, opción A" if n <= 5 else f"{n}, opción B" for n in exercise_numbers_integer]
+        exercise_numbers = [f"Ejercicio {n}, opción A" if n <= 5 else f"Ejercicio {n}, opción B" for n in exercise_numbers_integer]
     
     # split exam_text using exercise number pattern
     exercises = re.split(pattern, exam_text, flags=re.M)
@@ -269,16 +269,13 @@ def split_exercises(exam_text: str, exam_period: str) -> list:
     # special exercise number for competencial exercise
     # in exams from 2024
     if exam_period == "2025+":
-        # extract last exercise ("competencial")
-        competencial_exercise = exercises_list[-1]
-        # split into lines
-        competencial_lines = competencial_exercise.split("\n")
-        # shorten first line of competencial
-        competencial_lines[0] = "PREGUNTA 5.-"
-        # join all lines back
-        competencial_exercise = "\n".join(competencial_lines)
-        # replace modified last exercise into exercises list
-        exercises_list[-1] = competencial_exercise
+        # eliminar líneas que empiezan por "PREGUNTA"
+        for idx, ex in enumerate(exercises_list):
+            ex = [line for line in ex.split("\n")
+                  if not line.startswith("PREGUNTA")]
+            ex = "\n".join(ex)
+            ex = ex.split("PRUEBA DE ACCESO A LA UNIVERSIDAD")[0]
+            exercises_list[idx] = ex
 
     return exercises_list
 

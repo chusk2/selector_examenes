@@ -117,10 +117,8 @@
         "topic_kw": [
             "v\\s*=\\s*k",
             "velocidad de reaccion",
-            "catalizador",
             "energia de activacion",
             "constante de velocidad",
-            "diagrama entalpico",
             "cinetica",
             "orden total",
             "\\borden\\b",
@@ -184,7 +182,7 @@
             "\\btipo de reaccion",
             "\\btipo (?:al que)? pertenecen",
             "\\bque tipo",
-            "producto (?:mayoritario|minoritario)"
+            "(?:productos?)? (?:mayoritario|minoritario)s?"
         ]
     },
     "acido-base": {
