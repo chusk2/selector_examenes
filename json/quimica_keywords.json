@@ -1,0 +1,95 @@
+{
+    "termoquimica": {
+        "topic_kw": [
+            "espontan",
+            "energia libre",
+            "entropia",
+            "calor de reaccion",
+            "a volumen constante",
+            "a presion constante",
+            "energia interna",
+            "estandar de formacion",
+            "Gibbs",
+            "diagrama entalpico",
+            "entalpia",
+            "estandar de combustion",
+            "calor de formacion",
+            "calor de combustion"
+        ]
+    },
+    "solubilidad": {
+        "topic_kw": [
+            "solubilidad",
+            "disolucion saturada",
+            "precipita(?:do|cion)?"
+        ]
+    },
+    "configuracion_electronica": {
+        "topic_kw": [
+            "configuraci(?:on|ones) electronicas?",
+            "\\biones? (?:mas )?estables?\\b",
+            "\\bneutron(?:es)?\\b",
+            "\\bperiodo\\b",
+            "\\bgrupo (?:\\d|del sistema|de la tabla)",
+            "numeros? cuanticos?",
+            "isoelectronic",
+            "electron diferenciador",
+            "desapareados?",
+            "estados? fundamental(?:es)?",
+            "estados? excitados?",
+            "\\b(?:He|Ne)\\b"
+        ]
+    },
+    "propiedades_periodicas": {
+        "topic_kw": [
+            "\\bradio\\b(?: atomico| ionico)",
+            "energia de ionizacion",
+            "\\bafinidad electronica",
+            "electronegativ",
+            "\\bcaracter metalico\\b"
+        ]
+    },
+    "formulacion": {
+        "topic_kw": [
+            "\\bformul[a|e] o nombr[a|e]\\b"
+        ]
+    },
+    "redox": {
+        "topic_kw": [
+            "electrolisis",
+            "96500",
+            "potencial(?:es)",
+            "\\bpotencial estandar\\",
+            "anodo",
+            "catodo",
+            "sacrificio",
+            "ion-electron",
+            "oxida",
+            "semirreaccion(?:es)",
+            "electrolitica",
+            "\\bpila\\b",
+            "\\bgalvanica\\b",
+            "\\breduccion\\b"
+        ]
+    },
+    "enlace_quimico": {
+        "topic_kw": [
+            "dureza",
+            "ebullicion",
+            "fusion",
+            "lewis",
+            "hibridacion",
+            "\\b[a]polar(?:idad|es)",
+            "geometria",
+            "electricidad",
+            "tipo de enlace",
+            "fragil(?:es)",
+            "maleab(?:ilidad|ble)",
+            "ducti(?:l|bilidad)",
+            "[T]RPECV",
+            "\\batomo central",
+            "molecula[s] covalente[s]",
+            "covalente"
+        ]
+    }
+}
