@@ -185,7 +185,7 @@
             "(?:productos?)? (?:mayoritario|minoritario)s?"
         ]
     },
-    "acido-base": {
+    "acido_base": {
         "topic_kw": [
             "acido",
             "\\bbase\\b",
@@ -219,7 +219,9 @@
             "molaridad de una disolucion",
             "volumen necesario para preparar",
             "material necesario",
-            "preparar \\d* [L|mL|cm3] de disolucion"
+            "preparar \\d* [L|mL|cm3] de disolucion",
+            "\\bsales\\b",
+            "\\bamortiguadora?\\b"
         ]
     },
     "cantidad_quimica" : {"topic_kw" : [
