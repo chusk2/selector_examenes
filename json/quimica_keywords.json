@@ -57,7 +57,7 @@
     },
     "formulacion": {
         "topic_kw": [
-            "\\bformul[a|e]\\b"
+            "\\bformul[ae]\\b"
         ]
     },
     "redox": {
@@ -221,7 +221,7 @@
             "molaridad de una disolucion",
             "volumen necesario para preparar",
             "material necesario",
-            "preparar \\d* [L|mL|cm3] de disolución"
+            "preparar \\d* [L|mL|cm3] de disolucion"
         ]
     },
     "cantidad_quimica" : {"topic_kw" : [
@@ -240,8 +240,6 @@
                 "exprese en moles",
                 "\\brecipientes\\b",
                 "recipiente[^.;]{0,40}\\b(?:gas|lleno|vacio)",
-                "contiene mayor numero"
-            ]
-        }
-    
+                "contiene mayor numero"]
+        }   
 }
