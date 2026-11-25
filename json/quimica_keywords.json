@@ -31,7 +31,6 @@
             "\\bneutron(?:es)?\\b",
             "\\bperiodo\\b",
             "\\bgrupo\\b",
-            "\\bgrupo (?:\\d|del sistema|de la tabla)",
             "numeros? cuanticos?",
             "isoelectronic",
             "electron diferenciador",
@@ -62,14 +61,12 @@
     },
     "redox": {
         "topic_kw": [
-            "electrolisis",
             "96500",
             "potencial(?:es)?",
-            "\\bpotencial estandar\\b",
             "anodo",
             "catodo",
             "sacrificio",
-            "ion[- ]electron",
+            "\\bion[- ]electron\\b",
             "oxida",
             "semirreaccion(?:es)?",
             "electrolitica",
@@ -78,12 +75,10 @@
             "\\bgalvanica\\b",
             "\\breduccion\\b",
             "\\brendimiento\\b",
-            "\\bmedido a\\b \\d*",
-            "Eº",
+            "(?-i:\\bEº)",
             "caliza",
             "pirita",
             "alumina"
-
         ]
     },
     "enlace_quimico": {
@@ -100,7 +95,7 @@
             "fragil(?:es)?",
             "maleab(?:ilidad|ble)",
             "ducti(?:l|bilidad)",
-            "[T]RPECV",
+            "TRPECV",
             "\\batomo central",
             "moleculas? covalentes?",
             "covalente",
@@ -110,7 +105,7 @@
             "fundir",
             "sublimar",
             "\\bvaporizar",
-            "[e]vapora"
+            "evapora"
         ]
     },
     "cinetica": {
@@ -126,17 +121,15 @@
             "ecuacion de velocidad"
         ]
     },
-    "equilibrio": {
+    "equilibrio_quimico": {
         "topic_kw": [
-            "Kc",
-            "Kp",
+            "(?-i:\\bKc\\b)",
+            "(?-i:\\bKp\\b)",
             "Le Chatelier",
             "LeChatelier",
             "Qc",
-            "a la presion total de",
             "adicionar",
-            "adicion",
-            "de presion total",
+            "\\badicion",
             "cociente de reaccion",
             "constantes? de equilibrio",
             "como afecta",
@@ -144,7 +137,7 @@
             "desplaza",
             "\\befecto\\b",
             "\\b(?:porcentaje|grado) de disociacion\\b",
-            "equilibrio",
+            "\\bequilibrios?\\b(?!\\s+de\\s+solubilidad)",
             "evolucion",
             "favorece",
             "fraccion(?:es)? molar(?:es)?",
@@ -219,27 +212,28 @@
             "molaridad de una disolucion",
             "volumen necesario para preparar",
             "material necesario",
-            "preparar \\d* [L|mL|cm3] de disolucion",
+            "preparar \\d* (?:L|mL|cm3) de disolucion",
             "\\bsales\\b",
             "\\bamortiguadora?\\b"
         ]
     },
-    "cantidad_quimica" : {"topic_kw" : [
-        
-                "numero de (?:moles|moleculas|atomos)",
-                "numero total de atomos",
-                "cuant[ao]s (?:moleculas|atomos)",
-                "moles de atomos",
-                "Avogadro",
-                "masa,?\\s+(?:expresada\\s+)?(?:en gramos,?\\s+)?de un[ao]? (?:atomo|molecula)",
-                "masa atomica de un elemento",
-                "masa molecular",
-                "formula (?:empirica|molecular)",
-                "composicion centesimal",
-                "tanto por ciento en (?:peso|masa) de \\w+ en el compuesto",
-                "exprese en moles",
-                "\\brecipientes\\b",
-                "recipiente[^.;]{0,40}\\b(?:gas|lleno|vacio)",
-                "contiene mayor numero"]
-        }   
+    "cantidad_quimica": {
+        "topic_kw": [
+            "numero de (?:moles|moleculas|atomos)",
+            "numero total de atomos",
+            "cuant[ao]s (?:moleculas|atomos)",
+            "moles de atomos",
+            "Avogadro",
+            "masa,?\\s+(?:expresada\\s+)?(?:en gramos,?\\s+)?de un[ao]? (?:atomo|molecula)",
+            "masa atomica de un elemento",
+            "masa molecular",
+            "formula (?:empirica|molecular)",
+            "composicion centesimal",
+            "tanto por ciento en (?:peso|masa) de \\w+ en el compuesto",
+            "exprese en moles",
+            "\\brecipientes\\b",
+            "recipiente[^.;]{0,40}\\b(?:gas|lleno|vacio)",
+            "contiene mayor numero"
+        ]
+    }
 }
