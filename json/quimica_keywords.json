@@ -175,7 +175,24 @@
             "\\btipo de reaccion",
             "\\btipo (?:al que)? pertenecen",
             "\\bque tipo",
-            "(?:productos?)? (?:mayoritario|minoritario)s?"
+            "(?:productos?)? (?:mayoritario|minoritario)s?",
+            "\\bC?H[23₂₃]?\\s*=\\s*C",
+            "C\\s*≡\\s*C?H?",
+            "\\bCH[23₂₃]?\\s*[-−–]?\\s*C(?:H|\\()",
+            "\\bCH\\s*\\((?:OH|Cl|Br|I|CH[3₃])\\)",
+            "a partir de\\s+C?H[23₂₃]?",
+            "\\bH[2₂]\\s*/\\s*(?:cat|Ni|Pt|Pd)",
+            "\\bcon\\s+(?:\\d+\\s+mol(?:es)?\\s+de\\s+)?(?-i:(?:HBr|HCl|HI|Cl[2₂]|Br[2₂]|I[2₂]))\\b",
+            "reactivos? (?:adecuados?|necesarios?)",
+            "\\btransformaciones?\\b",
+            "escriba las (?:siguientes )?reacciones",
+            "\\b(?:met|et|prop|but|pent|hex)(?:an|en|in)(?:o|ol|al|ona|oico|amina|amida)\\b",
+            "\\b(?:\\d+(?:,\\d+)*-)?(?:di|tri)?(?:metil|etil|cloro|bromo|yodo|hidroxi)\\w*(?:ano|eno|ino|ol)\\b",
+            "\\b(?:alcohol|aldehido|cetona|ester|eter|amina|amida)(?:e?s)?\\b",
+            "acido (?:met|et|prop|but|pent)anoico",
+            "\\bbenceno\\b",
+            "grupos? funcional(?:es)?",
+            "polimeri"
         ]
     },
     "acido_base": {
@@ -233,7 +250,26 @@
             "exprese en moles",
             "\\brecipientes\\b",
             "recipiente[^.;]{0,40}\\b(?:gas|lleno|vacio)",
-            "contiene mayor numero"
+            "contiene mayor numero",
+            "\\bmolaridad\\b",
+            "\\bmatraz\\b",
+            "gas(?:es)? ideal(?:es)?",
+            "ecuacion (?:general )?de (?:los )?gases",
+            "volumen molar",
+            "condiciones normales",
+            "mismas condiciones de presion y temperatura",
+            "presion (?:en el )?interior",
+            "\\b(?:deja|dejar|se deja) (?:salir|escapar)",
+            "cuantos gramos",
+            "(?:con|en) exceso de",
+            "reactivo limitante",
+            "\\b(?:riqueza|pureza)\\b",
+            "estequiometr",
+            "sin ajustar",
+            "a partir de \\d+(?:[,.']\\d+)?\\s*(?:k?g|mg|moles?|L)\\b",
+            "\\b(?:un[ao]?|dos|tres|cuatro|cinco|\\d+)\\s+(?:moles?|moleculas?|litros?|gramos?)\\s+de\\s+(?-i:[A-Z][a-z]?[\\d₀-₉]*)",
+            "\\bmolalidad\\b",
+            "tanto por ciento en (?:peso|masa)|%\\s*en (?:peso|masa)"
         ]
     }
 }

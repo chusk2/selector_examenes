@@ -11,13 +11,15 @@
             "cinetica",
             "acido_base",
             "redox",
-            "termoquimica"
+            "termoquimica",
+            "solubilidad"
         ],
         "3": [
             "termoquimica",
             "solubilidad",
             "acido_base",
-            "redox"
+            "redox",
+            "equilibrio_quimico"
         ],
         "4A": [
             "formulacion_organica"
@@ -44,13 +46,15 @@
             "solubilidad",
             "acido_base",
             "redox",
-            "reactividad_organica"
+            "reactividad_organica",
+            "termoquimica"
         ],
         "C": [
             "equilibrio_quimico",
             "solubilidad",
             "acido_base",
-            "redox"
+            "redox",
+            "termoquimica"
         ]
     },
     "modelo_2010_2019": {
@@ -73,7 +77,8 @@
             "solubilidad",
             "acido_base",
             "termoquimica",
-            "redox"
+            "redox",
+            "cantidad_quimica"
         ]
     }
 }

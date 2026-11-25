@@ -1,0 +1,240 @@
+{
+    "termoquimica": {
+        "topic_kw": [
+            "espontan",
+            "energia libre",
+            "entropia",
+            "calor de reaccion",
+            "a volumen constante",
+            "a presion constante",
+            "energia interna",
+            "estandar de formacion",
+            "Gibbs",
+            "diagrama entalpico",
+            "entalpia",
+            "estandar de combustion",
+            "calor de formacion",
+            "calor de combustion"
+        ]
+    },
+    "solubilidad": {
+        "topic_kw": [
+            "solubilidad",
+            "disolucion saturada",
+            "precipita(?:do|cion)?"
+        ]
+    },
+    "configuracion_electronica": {
+        "topic_kw": [
+            "configuraci(?:on|ones) electronicas?",
+            "\\biones? (?:mas )?estables?\\b",
+            "\\bneutron(?:es)?\\b",
+            "\\bperiodo\\b",
+            "\\bgrupo\\b",
+            "numeros? cuanticos?",
+            "isoelectronic",
+            "electron diferenciador",
+            "desapareados?",
+            "estados? fundamental(?:es)?",
+            "estados? excitados?",
+            "\\b(?:He|Ne)\\b",
+            "orbital",
+            "nivel de energia",
+            "proton(?:es)?",
+            "bohr",
+            "\\bZ\\s*=\\s*\\d+"
+        ]
+    },
+    "propiedades_periodicas": {
+        "topic_kw": [
+            "\\bradio\\b(?: atomico| ionico)?",
+            "energia de ionizacion",
+            "\\bafinidad electronica",
+            "electronegativ",
+            "\\bcaracter metalico\\b"
+        ]
+    },
+    "formulacion": {
+        "topic_kw": [
+            "\\bformul[ae]\\b"
+        ]
+    },
+    "redox": {
+        "topic_kw": [
+            "96500",
+            "potencial(?:es)?",
+            "anodo",
+            "catodo",
+            "sacrificio",
+            "\\bion[- ]electron\\b",
+            "oxida",
+            "semirreaccion(?:es)?",
+            "electrolitica",
+            "elec?trolisis",
+            "\\bpila\\b",
+            "\\bgalvanica\\b",
+            "\\breduccion\\b",
+            "\\brendimiento\\b",
+            "(?-i:\\bEº)",
+            "caliza",
+            "pirita",
+            "alumina"
+        ]
+    },
+    "enlace_quimico": {
+        "topic_kw": [
+            "dureza",
+            "ebullicion",
+            "fusion",
+            "lewis",
+            "hibridacion",
+            "\\ba?polar(?:idad|es)?",
+            "geometria",
+            "electricidad",
+            "tipo de enlace",
+            "fragil(?:es)?",
+            "maleab(?:ilidad|ble)",
+            "ducti(?:l|bilidad)",
+            "TRPECV",
+            "\\batomo central",
+            "moleculas? covalentes?",
+            "covalente",
+            "(?:puentes?|enlaces?) de hidrogeno",
+            "\\bsoluble en agua",
+            "fuerzas?",
+            "fundir",
+            "sublimar",
+            "\\bvaporizar",
+            "evapora"
+        ]
+    },
+    "cinetica": {
+        "topic_kw": [
+            "v\\s*=\\s*k",
+            "velocidad de reaccion",
+            "energia de activacion",
+            "constante de velocidad",
+            "cinetica",
+            "orden total",
+            "\\borden\\b",
+            "velocidad",
+            "ecuacion de velocidad"
+        ]
+    },
+    "equilibrio_quimico": {
+        "topic_kw": [
+            "(?-i:\\bKc\\b)",
+            "(?-i:\\bKp\\b)",
+            "Le Chatelier",
+            "LeChatelier",
+            "Qc",
+            "adicionar",
+            "\\badicion",
+            "cociente de reaccion",
+            "constantes? de equilibrio",
+            "como afecta",
+            "como influ",
+            "desplaza",
+            "\\befecto\\b",
+            "\\b(?:porcentaje|grado) de disociacion\\b",
+            "\\bequilibrios?\\b(?!\\s+de\\s+solubilidad)",
+            "evolucion",
+            "favorece",
+            "fraccion(?:es)? molar(?:es)?",
+            "presion(?:es)? parcial(?:es)?",
+            "presion total"
+        ]
+    },
+    "reactividad_organica": {
+        "topic_kw": [
+            "alcano",
+            "alqueno",
+            "alquino",
+            "hidrocarburo",
+            "isomer(?:o|os|ia)",
+            "geometrica",
+            "markovnikov",
+            "(?:reaccion de)? (?:(?:des)?hidrata(?:cion)?|eliminacion|sustitucion)",
+            "combustion ajustada",
+            "\\bnitracion\\b",
+            "esterificacion",
+            "serie homologa",
+            "formula (semi)?desarrollada",
+            "optica",
+            "cis[- ]trans",
+            "quiral",
+            "\\basimetric[oa]\\b",
+            "luz polarizada",
+            "plano de polarizacion",
+            "actividad optica",
+            "longitud del enlace",
+            "para dar un alcohol",
+            "fotoquimica",
+            "(?:et|prop|but|pent)eno\\b",
+            "(?:et|prop|but|pent)ino\\b",
+            "\\btipo de reaccion",
+            "\\btipo (?:al que)? pertenecen",
+            "\\bque tipo",
+            "(?:productos?)? (?:mayoritario|minoritario)s?"
+        ]
+    },
+    "acido_base": {
+        "topic_kw": [
+            "acido",
+            "\\bbase\\b",
+            "\\bph\\b",
+            "\\bpoh\\b",
+            "Ka\\s*=",
+            "Kb\\s*=",
+            "\\bK[abw]\\b",
+            "constante de acidez",
+            "constante de basicidad",
+            "constante de disociacion",
+            "neutraliz",
+            "valoracion",
+            "indicador",
+            "brønsted",
+            "bronsted",
+            "lowry",
+            "conjugad",
+            "hidr[o]lisis",
+            "anfoter",
+            "monoprotico",
+            "diprotico",
+            "(?-i:\\bH[AB]\\b)",
+            "disolucion comercial",
+            "industrial",
+            "\\bdebil\\b",
+            "\\bbasicidad\\b",
+            "\\bacidez\\b",
+            "NH4Cl",
+            "CH3COONa",
+            "molaridad de una disolucion",
+            "volumen necesario para preparar",
+            "material necesario",
+            "preparar \\d* (?:L|mL|cm3) de disolucion",
+            "\\bsales\\b",
+            "\\bamortiguadora?\\b"
+        ]
+    },
+    "cantidad_quimica": {
+        "topic_kw": [
+            "numero de (?:moles|moleculas|atomos)",
+            "numero total de atomos",
+            "cuant[ao]s (?:moleculas|atomos)",
+            "moles de atomos",
+            "Avogadro",
+            "masa,?\\s+(?:expresada\\s+)?(?:en gramos,?\\s+)?de un[ao]? (?:atomo|molecula)",
+            "masa atomica de un elemento",
+            "masa molecular",
+            "formula (?:empirica|molecular)",
+            "composicion centesimal",
+            "tanto por ciento en (?:peso|masa) de \\w+ en el compuesto",
+            "exprese en moles",
+            "\\brecipientes\\b",
+            "recipiente[^.;]{0,40}\\b(?:gas|lleno|vacio)",
+            "contiene mayor numero",
+            "\\bmolaridad\\b"
+        ]
+    }
+}
